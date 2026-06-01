@@ -1,0 +1,151 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "dataviz": "DataViz",
+    "about": "About",
+    "contact": "Contact"
+  },
+
+  "home": {
+    "greeting": "Hi, I'm ",
+    "role": "Creative Technologist · Python · React · Data",
+    "cta": "See my work",
+    "certificates": "Certificates",
+    "viewHint": "view ↗"
+  },
+
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Things I have built"
+  },
+
+  "dataviz": {
+    "title": "Data",
+    "subtitle": "Live GitHub stats — languages, activity, repos",
+    "loading": "Loading GitHub data...",
+    "repos": "Repos",
+    "originals": "Originals",
+    "stars": "Stars",
+    "events": "Events / year",
+    "languages": "Language breakdown",
+    "byLanguage": "Repos by language",
+    "topRepos": "Top repos",
+    "activity": "GitHub activity — last 365 days",
+    "less": "Less",
+    "more": "More",
+    "recentRepos": "Recently updated repos"
+  },
+
+  "about": {
+    "title": "About me",
+    "body": "Your story here."
+  },
+
+  "contact": {
+    "title": "Contact",
+    "label": "Get in touch",
+
+    "eyebrow": "Get in touch",
+    "title1": "Let's talk",
+    "title2": "data.",
+    "body": "Open to collaboration, internships, and projects. Drop me a message — I usually reply within 24h.",
+    "available": "Available for new opportunities",
+
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Briefly describe what you'd like to talk about...",
+      "send": "Send message",
+      "error": "Something went wrong. Please try again or reach out via GitHub."
+    },
+
+    "success": {
+      "title": "Sent!",
+      "body": "Message is on its way. I'll get back to you soon.",
+      "again": "Send another message"
+    },
+
+    "err": {
+      "nameRequired": "Name is required",
+      "emailInvalid": "Invalid email",
+      "messageShort": "At least 10 characters"
+    }
+  },
+
+  "certificates": {
+    "label": "CERTIFICATES",
+    "filterAll": "All",
+    "filterData": "Data",
+    "filterDesign": "Design",
+    "filterDev": "Dev",
+    "view": "View",
+    "verify": "Verify"
+  },
+
+  "featured": {
+    "label": "selected work",
+    "all": "all projects"
+  },
+
+  "about.label": "— about me",
+
+  "about.heading.line1": "I love data,",
+  "about.heading.line2": "I tell stories.",
+
+  "about.intro": "I'm a data analyst and visualisation enthusiast who believes every dataset hides something meaningful — you just need to find the right angle.",
+
+  "about.portrait_tag": "Tallinn, Estonia",
+
+  "about.bio.heading": "Who is Marily?",
+
+  "about.bio.p1": "My journey with data started from curiosity — I wanted to understand why things work the way they do. Today that question has become my methodology: I combine statistical analysis, visual design, and domain knowledge to build solutions that genuinely matter.",
+
+  "about.bio.p2": "I've worked with small start-ups and large data-heavy sectors alike — finance, healthcare, e-commerce. Each project has taught me something new about how people actually use (and misuse) data.",
+
+  "about.bio.p3": "In my spare time I experiment with D3.js, compete on Kaggle, and drink too much coffee with a sea view.",
+
+  "about.bio.cta": "Get in touch",
+
+  "about.stats.projects": "projects",
+  "about.stats.years": "years experience",
+  "about.stats.certs": "certificates",
+  "about.stats.tools": "tools",
+
+  "about.skills.heading": "What I use",
+
+  "skills.cat.data": "Data Processing",
+  "skills.cat.viz": "Visualisation",
+  "skills.cat.ml": "Machine Learning",
+  "skills.cat.dev": "Development",
+
+  "about.timeline.heading": "My journey",
+
+  "about.timeline.t1.title": "Senior Data Analyst — TechCorp OÜ",
+  "about.timeline.t1.desc": "Built internal BI solutions and dashboards that cut decision-making time by 40%.",
+
+  "about.timeline.t2.title": "MSc Data Science — TalTech",
+  "about.timeline.t2.desc": "Thesis: identifying customer behaviour patterns in e-commerce datasets with NLP methods.",
+
+  "about.timeline.t3.title": "Data Analyst — Startup XYZ",
+  "about.timeline.t3.desc": "User data analysis and building an A/B testing framework from scratch.",
+
+  "about.timeline.t4.title": "BSc Computer Science — University of Tartu",
+  "about.timeline.t4.desc": "Focus on database design and algorithms.",
+
+  "about.values.heading": "What I believe in",
+
+  "about.values.clarity.title": "Clarity",
+  "about.values.clarity.desc": "The best analysis is one even non-technical decision-makers can understand. Complexity is necessary; confusion never is.",
+
+  "about.values.curiosity.title": "Curiosity",
+  "about.values.curiosity.desc": "Better answers lead to better questions. I keep digging even when the first hypothesis doesn't hold.",
+
+  "about.values.craft.title": "Craft",
+  "about.values.craft.desc": "Details matter — in code as much as design. Good work shows that its author cares."
+}
+

@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Andmeanalüüs dashboard",
+    "description_et": "Interaktiivne dashboard Pythoni andmete visualiseerimiseks. Filtrid, graafikud ja eksport.",
+    "description_en": "Interactive dashboard for Python data visualization. Filters, charts and export.",
+    "tech": ["Python", "Pandas", "Plotly", "React"],
+    "github": "https://github.com/marily77",
+    "live": "",
+    "featured": true,
+    "category": "dataviz"
+  },
+  {
+    "id": 2,
+    "title": "Portfoolio v1",
+    "description_et": "Esimene portfoolio leht — HTML, CSS ja vanilla JS. Responsive disain.",
+    "description_en": "First portfolio site built with HTML, CSS and vanilla JS. Responsive design.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/marily77",
+    "live": "",
+    "featured": true,
+    "category": "web"
+  },
+  {
+    "id": 3,
+    "title": "Ilmarakendus",
+    "description_et": "OpenWeather API kasutamine Reactis. Otsing, ikoonid, 5-päeva prognoos.",
+    "description_en": "Weather app using OpenWeather API in React. Search, icons, 5-day forecast.",
+    "tech": ["React", "API", "CSS"],
+    "github": "https://github.com/marily77",
+    "live": "",
+    "featured": true,
+    "category": "web"
+  },
+  {
+    "id": 4,
+    "title": "Projekt 4",
+    "description_et": "Kirjeldus tuleb.",
+    "description_en": "Description coming soon.",
+    "tech": ["Python"],
+    "github": "https://github.com/marily77",
+    "live": "",
+    "featured": false,
+    "category": "python"
+  }
+]

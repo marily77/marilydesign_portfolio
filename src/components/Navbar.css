@@ -1,0 +1,195 @@
+.navbar {
+  padding: 0 2rem;
+  height: 60px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: var(--font-body);
+  font-size: 13px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+
+  /* Subtiilne blur efekt */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(14, 14, 14, 0.85);
+}
+
+.navbar__logo {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--text-heading);
+  margin-right: auto;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar__logo:hover {
+  opacity: 1;
+  color: var(--accent);
+}
+
+.navbar__links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar__link {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+  letter-spacing: 0.02em;
+}
+
+.navbar__link:hover {
+  color: var(--text);
+  opacity: 1;
+}
+
+.navbar__link--active {
+  color: var(--accent);
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.navbar__lang {
+  font-size: 12px;
+  padding: 4px 12px;
+}
+
+/* ── Hamburger ─────────────────────────────── */
+.navbar__hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.navbar__hamburger span {
+  display: block;
+  height: 1.5px;
+  background: var(--text-heading);
+  border-radius: 2px;
+  transition: transform 0.25s ease, opacity 0.25s ease, width 0.25s ease;
+  transform-origin: center;
+}
+
+.navbar__hamburger:hover {
+  border-color: var(--accent);
+}
+
+/* X animatsioon */
+.navbar__hamburger.is-open span:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+.navbar__hamburger.is-open span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.navbar__hamburger.is-open span:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+/* ── Mobiilmenüü ───────────────────────────── */
+.navbar__mobile {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 2rem;
+
+  transform: translateY(-20px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar__mobile.is-open {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.navbar__mobile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.navbar__mobile-link {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 8vw, 3rem);
+  font-weight: 700;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  transition: color 0.2s;
+  letter-spacing: -0.02em;
+}
+
+.navbar__mobile-link:hover,
+.navbar__mobile-link--active {
+  color: var(--accent);
+  opacity: 1;
+}
+
+.navbar__mobile-lang {
+  font-size: 13px;
+  padding: 10px 32px;
+}
+
+.navbar__backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 98;
+  background: transparent;
+}
+
+/* ── Responsive breakpointid ───────────────── */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 1.25rem;
+    gap: 1rem;
+  }
+
+  .navbar__links {
+    display: none;
+  }
+
+  .navbar__lang {
+    font-size: 11px;
+    padding: 3px 10px;   /* pisut kompaktsem mobiilil */
+  }
+  
+  .navbar__hamburger {
+    display: flex;
+  }
+}

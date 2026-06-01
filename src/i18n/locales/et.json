@@ -1,0 +1,153 @@
+
+{
+  "nav": {
+    "home": "Kodu",
+    "projects": "Projektid",
+    "dataviz": "DataViz",
+    "about": "Minust",
+    "contact": "Kontakt"
+  },
+
+  "home": {
+    "greeting": "Tere, mina olen ",
+    "role": "Creative Technologist · Python · React · Andmed",
+    "cta": "Vaata projekte",
+    "certificates": "Sertifikaati",
+    "viewHint": "vaata ↗"
+  },
+
+  "projects": {
+    "title": "Projektid",
+    "subtitle": "Asjad mida olen ehitanud"
+  },
+
+  "dataviz": {
+    "title": "Data",
+    "subtitle": "Live GitHub statistika — keeled, aktiivsus, repod",
+    "loading": "Laen GitHub andmeid...",
+    "repos": "Repod",
+    "originals": "Originaalid",
+    "stars": "Tähed",
+    "events": "Events / aasta",
+    "languages": "Keelejaotus",
+    "byLanguage": "Repod keele järgi",
+    "topRepos": "Top repod",
+    "activity": "GitHub aktiivsus — viimased 365 päeva",
+    "less": "Vähem",
+    "more": "Rohkem",
+    "recentRepos": "Viimati uuendatud repod"
+  },
+
+  "about": {
+    "title": "Minust",
+    "body": "Sinu lugu siia."
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "label": "Võta ühendust",
+
+    "eyebrow": "Võta ühendust",
+    "title1": "Räägime",
+    "title2": "andmetest.",
+
+    "body": "Olen avatud koostöö, praktika ja projektide osas. Kirjuta mulle — vastan tavaliselt 24h jooksul.",
+
+    "available": "Saadaval uuteks võimalusteks",
+
+    "form": {
+      "name": "Nimi",
+      "namePlaceholder": "Sinu nimi",
+      "email": "E-mail",
+      "emailPlaceholder": "sinu@email.com",
+      "message": "Sõnum",
+      "messagePlaceholder": "Kirjelda lühidalt, millest soovid rääkida...",
+      "send": "Saada sõnum",
+      "error": "Midagi läks valesti. Proovi uuesti või kirjuta otse GitHubi kaudu."
+    },
+
+    "success": {
+      "title": "Saadetud!",
+      "body": "Sõnum on teel. Vastan sulle varsti.",
+      "again": "Saada uus sõnum"
+    },
+
+    "err": {
+      "nameRequired": "Nimi on kohustuslik",
+      "emailInvalid": "Kehtetu e-mail",
+      "messageShort": "Vähemalt 10 tähemärki"
+    }
+  },
+
+  "certificates": {
+    "label": "SERTIFIKAADID",
+    "filterAll": "Kõik",
+    "filterData": "Andmed",
+    "filterDesign": "Disain",
+    "filterDev": "Arendus",
+    "view": "Vaata",
+    "verify": "Kontrolli"
+  },
+
+  "featured": {
+    "label": "valitud tööd",
+    "all": "kõik projektid"
+  },
+
+  "about.label": "— minust",
+
+  "about.heading.line1": "Panen andmed",
+  "about.heading.line2": "visuaalselt elama!",
+
+  "about.intro": "Olen andmeanalüütik ja visualiseerimise entusiast, kes usub, et iga numbrite kogum peidab endas midagi olulist — vaja on vaid õige nurk leida.",
+
+  "about.portrait_tag": "Tallinn, Eesti",
+
+  "about.bio.heading": "Kes on Marily?",
+
+  "about.bio.p1": "Minu teekond andmetega algas uudishimust — tahtsin mõista, miks asjad toimivad nii nagu toimivad. Tänaseks olen muutnud selle küsimuse oma töömeetodiks: kombineerin statistilist analüüsi, visuaalset disaini ja domeeniteadmisi, et luua lahendusi, millest on päriselt kasu.",
+
+  "about.bio.p2": "Olen töötanud nii väikeste iduettevõtetega kui suurte andmemahukatele valdkondadega — finants, tervishoid, e-kaubandus. Iga projekt on õpetanud midagi uut selle kohta, kuidas inimesed andmeid tegelikult kasutavad (ja vääriti kasutavad).",
+
+  "about.bio.p3": "Vabal ajal eksperimenteerin D3.js-iga, osalen Kaggle'i võistlustel ja joon liiga palju kohvi merevaatega.",
+
+  "about.bio.cta": "Võta ühendust",
+
+  "about.stats.projects": "projekti",
+  "about.stats.years": "aastat kogemust",
+  "about.stats.certs": "sertifikaati",
+  "about.stats.tools": "tööriista",
+
+  "about.skills.heading": "Mida kasutan",
+
+  "skills.cat.data": "Andmetöötlus",
+  "skills.cat.viz": "Visualiseerimine",
+  "skills.cat.ml": "Masinõpe",
+  "skills.cat.dev": "Arendus",
+
+  "about.timeline.heading": "Teekond",
+
+  "about.timeline.t1.title": "Vanem andmeanalüütik — TechCorp OÜ",
+  "about.timeline.t1.desc": "Ehitasin ettevõttesisesed BI-lahendused ja juhtimispaneelid, mis lühendasid otsustusaega 40%.",
+
+  "about.timeline.t2.title": "MSc Andmeteadus — TalTech",
+  "about.timeline.t2.desc": "Lõputöö: klientide käitumismustrite tuvastamine e-kaubanduse andmestikes NLP meetoditega.",
+
+  "about.timeline.t3.title": "Andmeanalüütik — Startup XYZ",
+  "about.timeline.t3.desc": "Kasutajaandmete analüüs ja A/B testimise raamistiku ülesehitamine nullist.",
+
+  "about.timeline.t4.title": "BSc Informaatika — Tartu Ülikool",
+  "about.timeline.t4.desc": "Eriala rõhuasetus andmebaaside disain ja algoritmid.",
+
+  "about.values.heading": "Millesse usun",
+
+  "about.values.clarity.title": "Selgus",
+  "about.values.clarity.desc": "Parim analüüs on see, millest ka mittetehnilised otsustajad aru saavad. Keerukus on vajalik; segadus mitte kunagi.",
+
+  "about.values.curiosity.title": "Uudishimu",
+  "about.values.curiosity.desc": "Parimatest vastustest sünnivad paremad küsimused. Jätkan kaevamist ka siis, kui esimene hüpotees paika ei pea.",
+
+  "about.values.craft.title": "Meisterlikkus",
+  "about.values.craft.desc": "Detailid loevad — nii koodis kui kujunduses. Hea töö näitab, et autor hoolib."
+}
+

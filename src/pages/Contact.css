@@ -1,0 +1,473 @@
+/* ── Contact Page ─────────────────────────────────────────────────────────── */
+
+.ct-page {
+  min-height: 100vh;
+  padding: 6rem 2rem 4rem;
+  position: relative;
+  overflow: hidden;
+  font-family: 'DM Mono', monospace;
+  color: #c8c4bc;
+}
+
+/* ── Decorative grid lines ── */
+
+.ct-grid-lines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  justify-content: space-between;
+  z-index: 0;
+}
+
+.ct-grid-lines span {
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #1a1a1a 20%, #1a1a1a 80%, transparent);
+  opacity: 0.5;
+}
+
+/* ── Inner layout ── */
+
+.ct-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 6rem;
+  align-items: start;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Left column ── */
+
+.ct-left {
+  position: sticky;
+  top: 7rem;
+}
+
+.ct-eyebrow {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #e8ff6b;
+  margin-bottom: 1.5rem;
+  font-family: 'DM Mono', monospace;
+  animation: ct-fade-up 0.6s ease both;
+}
+
+.ct-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 800;
+  color: #c8c4bc;
+  line-height: 1.0;
+  margin-bottom: 1.75rem;
+  animation: ct-fade-up 0.6s 0.1s ease both;
+}
+
+.ct-title--accent {
+  color: #e8ff6b;
+}
+
+.ct-body {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.8;
+  max-width: 360px;
+  margin-bottom: 2.5rem;
+  animation: ct-fade-up 0.6s 0.2s ease both;
+}
+
+/* ── Social links ── */
+
+.ct-socials {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 2.5rem;
+  animation: ct-fade-up 0.6s 0.3s ease both;
+}
+
+.ct-social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #1a1a1a;
+  text-decoration: none;
+  color: #c8c4bc;
+  transition: color 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.ct-social-link::before {
+  content: '';
+  position: absolute;
+  left: -100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, #e8ff6b08, transparent);
+  transition: left 0.4s ease;
+}
+
+.ct-social-link:hover::before {
+  left: 100%;
+}
+
+.ct-social-link:hover {
+  color: #e8ff6b;
+}
+
+.ct-social-link:first-child {
+  border-top: 1px solid #1a1a1a;
+}
+
+.ct-social-label {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  min-width: 80px;
+}
+
+.ct-social-handle {
+  font-size: 0.72rem;
+  color: #555;
+  flex: 1;
+}
+
+.ct-social-arrow {
+  font-size: 0.85rem;
+  opacity: 0;
+  transform: translate(-4px, 4px);
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.ct-social-link:hover .ct-social-arrow {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* ── Availability badge ── */
+
+.ct-availability {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.72rem;
+  color: #555;
+  animation: ct-fade-up 0.6s 0.4s ease both;
+}
+
+.ct-avail-dot {
+  width: 7px;
+  height: 7px;
+  background: #e8ff6b;
+  border-radius: 50%;
+  position: relative;
+}
+
+.ct-avail-dot::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: #e8ff6b;
+  opacity: 0.3;
+  animation: ct-pulse 2s ease-in-out infinite;
+}
+
+@keyframes ct-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.3; }
+  50% { transform: scale(1.6); opacity: 0; }
+}
+
+/* ── Right column — form ── */
+
+.ct-right {
+  animation: ct-fade-up 0.6s 0.15s ease both;
+}
+
+.ct-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* ── Field ── */
+
+.ct-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #1a1a1a;
+  transition: border-color 0.2s;
+  position: relative;
+}
+
+.ct-field:first-child {
+  border-top: 1px solid #1a1a1a;
+}
+
+.ct-field--error {
+  border-color: #ff4444;
+}
+
+.ct-field--error .ct-label {
+  color: #ff4444;
+}
+
+.ct-field--ok .ct-label {
+  color: #e8ff6b;
+}
+
+.ct-field--textarea {
+  gap: 0.65rem;
+}
+
+.ct-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #444;
+  transition: color 0.2s;
+  font-family: 'DM Mono', monospace;
+}
+
+.ct-input,
+.ct-textarea {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #c8c4bc;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.95rem;
+  padding: 0;
+  resize: none;
+  width: 100%;
+  caret-color: #e8ff6b;
+}
+
+.ct-input::placeholder,
+.ct-textarea::placeholder {
+  color: #2e2e2e;
+}
+
+.ct-input:focus ~ .ct-label,
+.ct-textarea:focus ~ .ct-label {
+  color: #e8ff6b;
+}
+
+.ct-field:focus-within .ct-label {
+  color: #e8ff6b;
+}
+
+.ct-field:focus-within {
+  border-color: #e8ff6b33;
+}
+
+.ct-field-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+
+.ct-field-error {
+  font-size: 0.68rem;
+  color: #ff4444;
+}
+
+.ct-char-count {
+  font-size: 0.65rem;
+  color: #333;
+  margin-left: auto;
+}
+
+/* ── Submit button ── */
+
+.ct-submit {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.5rem;
+  background: #e8ff6b;
+  color: #0e0e0e;
+  border: none;
+  font-family: 'Syne', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+  position: relative;
+  overflow: hidden;
+}
+
+.ct-submit::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #fff;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.ct-submit:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.ct-submit:hover {
+  transform: translateY(-1px);
+}
+
+.ct-submit:active {
+  transform: translateY(0);
+}
+
+.ct-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.ct-submit span {
+  position: relative;
+  z-index: 1;
+}
+
+.ct-submit-arrow {
+  font-size: 1.1rem;
+  transition: transform 0.2s;
+}
+
+.ct-submit:hover .ct-submit-arrow {
+  transform: translateX(4px);
+}
+
+.ct-submit--sending {
+  justify-content: center;
+}
+
+.ct-submit-spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #0e0e0e33;
+  border-top-color: #0e0e0e;
+  border-radius: 50%;
+  animation: ct-spin 0.7s linear infinite;
+  display: inline-block;
+}
+
+@keyframes ct-spin {
+  to { transform: rotate(360deg); }
+}
+
+.ct-form-error {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: #ff4444;
+  line-height: 1.6;
+}
+
+/* ── Success state ── */
+
+.ct-success {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 3rem 0;
+  animation: ct-fade-up 0.5s ease both;
+}
+
+.ct-success-icon {
+  width: 48px;
+  height: 48px;
+  background: #e8ff6b;
+  color: #0e0e0e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.ct-success-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #c8c4bc;
+}
+
+.ct-success-body {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.7;
+}
+
+.ct-btn-reset {
+  margin-top: 0.5rem;
+  background: transparent;
+  border: 1px solid #1e1e1e;
+  color: #666;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  padding: 0.6rem 1.25rem;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.ct-btn-reset:hover {
+  border-color: #e8ff6b;
+  color: #e8ff6b;
+}
+
+/* ── Animations ── */
+
+@keyframes ct-fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 860px) {
+  .ct-inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .ct-left {
+    position: static;
+  }
+
+  .ct-title {
+    font-size: clamp(2.4rem, 8vw, 3.5rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .ct-page {
+    padding: 5rem 1.25rem 3rem;
+  }
+
+  .ct-title {
+    font-size: 2.2rem;
+  }
+
+  .ct-grid-lines {
+    display: none;
+  }
+}

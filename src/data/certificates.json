@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Google Data Analytics",
+    "issuer": "Google / Coursera",
+    "year": 2024,
+    "category": "data",
+    "image": "/certificates/google-data-analytics.jpg",
+    "verifyUrl": ""
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design Fundamentals",
+    "issuer": "Udemy",
+    "year": 2023,
+    "category": "design",
+    "image": "/certificates/ux-design.jpg",
+    "verifyUrl": ""
+  },
+  {
+    "id": 3,
+    "title": "Python for Everybody",
+    "issuer": "University of Michigan / Coursera",
+    "year": 2023,
+    "category": "dev",
+    "image": "/certificates/python.jpg",
+    "verifyUrl": ""
+  },
+  {
+    "id": 4,
+    "title": "React - The Complete Guide",
+    "issuer": "Udemy",
+    "year": 2024,
+    "category": "dev",
+    "image": "/certificates/react.jpg",
+    "verifyUrl": ""
+  },
+  {
+    "id": 5,
+    "title": "Data Visualization with Tableau",
+    "issuer": "Coursera",
+    "year": 2023,
+    "category": "data",
+    "image": "/certificates/tableau.jpg",
+    "verifyUrl": ""
+  }
+]
