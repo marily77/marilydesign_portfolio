@@ -38,10 +38,10 @@
   {
     "id": 5,
     "title": "Build an AI Career Coach using an Open Source LLM",
-    "issuer": "Coursera",
-    "year": 2023,
+    "issuer": "ZTM Academy",
+    "year": 2026,
     "category": "data",
-    "image": "/certificates/tableau.jpg",
+    "image": "src/assets/certificates/llm.jpg",
     "verifyUrl": ""
   },
    {
@@ -59,7 +59,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "uiux",
-    "image": "src/assets/certificates/uicomponents1.jpg",
+    "image": "src/assets/certificates/UIComponents1.jpg",
     "verifyUrl": ""
   },
   {
@@ -100,11 +100,134 @@
   },
     {
     "id": 12,
-    "title": "UX Research ",
+    "title": "3D Design Foundations",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/3DDesignFoundations.jpg",
+    "verifyUrl": ""
+  },
+    
+    {
+    "id": 13,
+    "title": "AI in UI/UX Design",
     "issuer": "Uxcel",
     "year": 2023,
     "category": "uiux",
-    "image": "src/assets/certificates/UXResearch.jpg",
+    "image": "src/assets/certificates/AIinUIUXDesign.jpg",
+    "verifyUrl": ""
+  },
+    
+    {
+    "id": 14,
+    "title": "Color Psychology",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/ColorPsychology.jpg",
+    "verifyUrl": ""
+  },
+    
+    {
+    "id": 15,
+    "title": "Common Design Patterns",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/CommonDesignPatterns.jpg",
+    "verifyUrl": ""
+  },
+    
+    {
+    "id": 16,
+    "title": "CSS for Designers",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/CSSforDesigners.jpg",
+    "verifyUrl": ""
+  },
+    
+    {
+    "id": 17,
+    "title": "Design Accessibility",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/DesignAccessibility.jpg",
+    "verifyUrl": ""
+  },
+    
+    {
+    "id": 18,
+    "title": "Design Composition",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/DesignComposition.jpg",
+    "verifyUrl": ""
+  },
+
+    
+    {
+    "id": 19,
+    "title": "Design Mentorship Mastery with ADP List",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/DesignMentorshipMasterywithADPList.jpg",
+    "verifyUrl": ""
+  },
+    
+    {
+    "id": 20,
+    "title": "Design Terminology",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/DesignTerminology.jpg",
+    "verifyUrl": ""
+  },
+    
+    {
+    "id": 21,
+    "title": "Design Workshop Facilitation",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/DesignWorkshopFacilitation.jpg",
+    "verifyUrl": ""
+  },
+    
+    {
+    "id": 22,
+    "title": "HTML for Designers",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/HTMLforDesigners.jpg",
+    "verifyUrl": ""
+  },
+    
+    {
+    "id": 23,
+    "title": "Mobile Design",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/MobileDesign.jpg",
+    "verifyUrl": ""
+  },
+   
+    {
+    "id": 24,
+    "title": "Motion Design with Figma: Animations, Motion Graphics, UI/UX",
+    "issuer": "Udemy",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/MotionDesignCertificate.jpg",
     "verifyUrl": ""
   }
+
+
 ]
