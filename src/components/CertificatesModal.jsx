@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
 import './CertificatesModal.css'
 
-const CATEGORIES = ['all', 'data', 'design', 'dev']
+const CATEGORIES = ['all', 'data', 'design', 'dev','uiux']
 
 export default function CertificatesModal({ isOpen, onClose }) {
   const { t } = useTranslation()
@@ -43,6 +43,7 @@ export default function CertificatesModal({ isOpen, onClose }) {
     data: t('certificates.filterData', 'Andmed'),
     design: t('certificates.filterDesign', 'Disain'),
     dev: t('certificates.filterDev', 'Arendus'),
+    uiux: t('certificates.filterUiux', 'Ui/Ux') 
   }
 
   return (

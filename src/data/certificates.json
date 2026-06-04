@@ -1,38 +1,38 @@
 [
   {
     "id": 1,
-    "title": "Google Data Analytics",
-    "issuer": "Google / Coursera",
-    "year": 2024,
-    "category": "data",
-    "image": "/certificates/google-data-analytics.jpg",
+    "title": "OOP in Python",
+    "issuer": "Taltech",
+    "year": 2025,
+    "category": "dev",
+    "image": "src/assets/certificates/loppoopx-doc.jpg",
     "verifyUrl": ""
   },
   {
     "id": 2,
-    "title": "UI/UX Design Fundamentals",
-    "issuer": "Udemy",
-    "year": 2023,
+    "title": "Digital media",
+    "issuer": "Taltech",
+    "year": 2026,
     "category": "design",
-    "image": "/certificates/ux-design.jpg",
+    "image": "src/assets/certificates/certwitout.jpg",
     "verifyUrl": ""
   },
   {
     "id": 3,
-    "title": "Python for Everybody",
+    "title": "Python ",
     "issuer": "University of Michigan / Coursera",
     "year": 2023,
-    "category": "dev",
+    "category": "data",
     "image": "/certificates/python.jpg",
     "verifyUrl": ""
   },
   {
     "id": 4,
-    "title": "React - The Complete Guide",
-    "issuer": "Udemy",
-    "year": 2024,
+    "title": "Complete Python Developer in 2026 -Zero to Mastery",
+    "issuer": "ZTM Academy",
+    "year": 2026,
     "category": "dev",
-    "image": "/certificates/react.jpg",
+    "image": "src/assets/certificates/completepython.jpg",
     "verifyUrl": ""
   },
   {
@@ -42,6 +42,51 @@
     "year": 2023,
     "category": "data",
     "image": "/certificates/tableau.jpg",
+    "verifyUrl": ""
+  },
+   {
+    "id": 6,
+    "title": "UI Components I ",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "uiux",
+    "image": "src/assets/certificates/uicomponents.jpg",
+    "verifyUrl": ""
+  },
+  {
+    "id": 7,
+    "title": "UI Components II ",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "uiux",
+    "image": "src/assets/certificates/uicomponents1.jpg",
+    "verifyUrl": ""
+  },
+  {
+    "id": 8,
+    "title": "UX Design Foundations ",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "uiux",
+    "image": "src/assets/certificates/UXDesignFoundations.jpg",
+    "verifyUrl": ""
+  },
+  {
+    "id": 9,
+    "title": "UX Design Patterns with Checklist Design ",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "uiux",
+    "image": "src/assets/certificates/UXDesignPatternswithChecklistDesign.jpg",
+    "verifyUrl": ""
+  },
+  {
+    "id": 10,
+    "title": "UX Research ",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "uiux",
+    "image": "src/assets/certificates/UXResearch.jpg",
     "verifyUrl": ""
   }
 ]
