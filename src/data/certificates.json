@@ -19,11 +19,11 @@
   },
   {
     "id": 3,
-    "title": "Python ",
-    "issuer": "University of Michigan / Coursera",
-    "year": 2023,
+    "title": "Problem-based applied machine learning and big data analysis",
+    "issuer": "Taltech",
+    "year": 2026,
     "category": "data",
-    "image": "/certificates/python.jpg",
+    "image": "src/assets/certificates/probledata.jpg",
     "verifyUrl": ""
   },
   {
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "title": "Data Visualization with Tableau",
+    "title": "Build an AI Career Coach using an Open Source LLM",
     "issuer": "Coursera",
     "year": 2023,
     "category": "data",
@@ -82,6 +82,24 @@
   },
   {
     "id": 10,
+    "title": "UX Research ",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "uiux",
+    "image": "src/assets/certificates/UXResearch.jpg",
+    "verifyUrl": ""
+  },
+    {
+    "id": 11,
+    "title": "UX Writing ",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "uiux",
+    "image": "src/assets/certificates/UXWriting.jpg",
+    "verifyUrl": ""
+  },
+    {
+    "id": 12,
     "title": "UX Research ",
     "issuer": "Uxcel",
     "year": 2023,
