@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "title": "Complete Python Developer in 2026 -Zero to Mastery",
+    "title": "The Complete Python Developer in 2026 -Zero to Mastery",
     "issuer": "ZTM Academy",
     "year": 2026,
     "category": "dev",
@@ -226,6 +226,60 @@
     "year": 2023,
     "category": "design",
     "image": "src/assets/certificates/MotionDesignCertificate.jpg",
+    "verifyUrl": ""
+  },
+      {
+    "id": 25,
+    "title": "Service Design",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/ServiceDesign.jpg",
+    "verifyUrl": ""
+  },
+    {
+    "id": 26,
+    "title": "The Complete Web Developer in 2025 Zero to Mastery",
+    "issuer": "ZTM Academy",
+    "year": 2025,
+    "category": "dev",
+    "image": "src/assets/certificates/the-complete-web-developer-zero-to-mastery.pdf.jpg",
+    "verifyUrl": ""
+  },
+      {
+    "id": 27,
+    "title": "Typography",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/typography.jpg",
+    "verifyUrl": ""
+  },
+      {
+    "id": 28,
+    "title": "Wireframing",
+    "issuer": "Uxcel",
+    "year": 2023,
+    "category": "design",
+    "image": "src/assets/certificates/Wireframing.jpg",
+    "verifyUrl": ""
+  },
+      {
+    "id": 29,
+    "title": "Women in Web Develoment",
+    "issuer": "BCS Koolitus",
+    "year": 2025,
+    "category": "dev",
+    "image": "src/assets/certificates/naisedvebtun.jpg",
+    "verifyUrl": ""
+  },
+        {
+    "id": 30,
+    "title": "Interactive Design ,Level 4",
+    "issuer": "Kuressaare Ametikool",
+    "year": 2024,
+    "category": "design",
+    "image": "src/assets/certificates/lõpukasilmaisik.jpg",
     "verifyUrl": ""
   }
 

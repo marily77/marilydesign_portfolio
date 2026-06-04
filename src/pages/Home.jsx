@@ -31,13 +31,26 @@ function Home() {
       </div>
 
       <div className="stats-row">
+       
+     
+        <button
+          className="stat-item stat-clickable"
+          onClick={() => setCertsOpen(true)}
+          aria-label="Vaata sertifikaate"
+        >
+          <div className="stat-num">30+</div>
+          <div className="stat-label">{t('home.certificates', 'sertifikaati')}</div>
+          <span className="stat-hint">{t('home.viewHint', 'vaata ↗')}</span>
+        </button>
+
+
         <a
           href="https://github.com/marily77"
           target="_blank"
           rel="noreferrer"
           className="stat-item stat-clickable"
         >
-          <div className="stat-num">10+</div>
+          <div className="stat-num">25+</div>
           <div className="stat-label">projekti GitHubis</div>
           <span className="stat-hint">{t('home.viewHint', 'vaata ↗')}</span>
         </a>
@@ -45,19 +58,10 @@ function Home() {
           <div className="stat-num">2</div>
           <div className="stat-label">keelt · ET / EN</div>
         </div>
-        <div className="stat-item">
+         <div className="stat-item">
           <div className="stat-num">∞</div>
           <div className="stat-label">uudishimu</div>
         </div>
-        <button
-          className="stat-item stat-clickable"
-          onClick={() => setCertsOpen(true)}
-          aria-label="Vaata sertifikaate"
-        >
-          <div className="stat-num">15+</div>
-          <div className="stat-label">{t('home.certificates', 'sertifikaati')}</div>
-          <span className="stat-hint">{t('home.viewHint', 'vaata ↗')}</span>
-        </button>
       </div>
 
       <CertificatesModal isOpen={certsOpen} onClose={() => setCertsOpen(false)} />
