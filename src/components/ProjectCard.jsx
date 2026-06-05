@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import './ProjectCard.css'
 
-function ProjectCard({ project, featured = false }) {
+function ProjectCard({ project, featured = false, onClick }) {
   const { i18n } = useTranslation()
   const lang = i18n.language.startsWith('et') ? 'et' : 'en'
   const description = project['description_' + lang]
@@ -25,8 +25,9 @@ function ProjectCard({ project, featured = false }) {
   const cardClass = 'project-card' + (featured ? ' project-card--featured' : '')
 
   return (
-    <article className={cardClass}>
-      <div className="project-card__header">
+    <article className={cardClass} onClick={onClick} style={{ cursor: 'pointer' }}>
+    
+     <div className="project-card__header">
         <span className="tag">{project.category}</span>
         <div className="project-card__links">
           {githubLink}

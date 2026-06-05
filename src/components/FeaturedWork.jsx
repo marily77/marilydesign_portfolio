@@ -1,11 +1,12 @@
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import ProjectCard from './ProjectCard'
 import projects from '../data/projects.json'
 import './FeaturedWork.css'
 
 function FeaturedWork() {
   const { t } = useTranslation()
+  const navigate = useNavigate()
   const featured = projects.filter(p => p.featured).slice(0, 3)
 
   return (
@@ -19,7 +20,12 @@ function FeaturedWork() {
 
       <div className="featured-work__grid">
         {featured.map(project => (
-          <ProjectCard key={project.id} project={project} featured />
+          <ProjectCard
+            key={project.id}
+            project={project}
+            featured
+            onClick={() => navigate('/projects', { state: { openProject: project.id } })}
+          />
         ))}
       </div>
     </section>

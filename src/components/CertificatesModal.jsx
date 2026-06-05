@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
 import './CertificatesModal.css'
 
-const CATEGORIES = ['all', 'data', 'design', 'dev','uiux']
+const CATEGORIES = ['all', 'design', 'dev','uiux','ai']
 
 export default function CertificatesModal({ isOpen, onClose }) {
   const { t } = useTranslation()
@@ -40,10 +40,11 @@ export default function CertificatesModal({ isOpen, onClose }) {
 
   const categoryLabel = {
     all: t('certificates.filterAll', 'Kõik'),
-    data: t('certificates.filterData', 'Andmed'),
+   
     design: t('certificates.filterDesign', 'Disain'),
     dev: t('certificates.filterDev', 'Arendus'),
-    uiux: t('certificates.filterUiux', 'Ui/Ux') 
+    uiux: t('certificates.filterUiux', 'UI/UX'),
+    ai: t('certificates.filterAi', 'AI/ML'),
   }
 
   return (

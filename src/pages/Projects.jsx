@@ -1,6 +1,8 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useLocation } from 'react-router-dom'
 import ProjectCard from '../components/ProjectCard'
+import ProjectModal from '../components/ProjectModal'
 import projects from '../data/projects.json'
 import './Projects.css'
 
@@ -9,6 +11,15 @@ const CATEGORIES = ['kõik', 'web', 'dataviz', 'python']
 function Projects() {
   const { t } = useTranslation()
   const [active, setActive] = useState('kõik')
+  const [selectedProject, setSelectedProject] = useState(null)
+  const location = useLocation()
+
+  useEffect(() => {
+    if (location.state?.openProject) {
+      const found = projects.find(p => p.id === location.state.openProject)
+      if (found) setSelectedProject(found)
+    }
+  }, [location.state])
 
   const filtered = active === 'kõik'
     ? projects
@@ -24,7 +35,13 @@ function Projects() {
   })
 
   const projectCards = filtered.map(function(project) {
-    return <ProjectCard key={project.id} project={project} />
+    return (
+      <ProjectCard
+        key={project.id}
+        project={project}
+        onClick={() => setSelectedProject(project)}
+      />
+    )
   })
 
   const githubHref = 'https://github.com/marily77'
@@ -53,6 +70,13 @@ function Projects() {
           GitHub ↗
         </a>
       </div>
+
+      {selectedProject && (
+        <ProjectModal
+          project={selectedProject}
+          onClose={() => setSelectedProject(null)}
+        />
+      )}
     </main>
   )
 }

@@ -8,7 +8,10 @@
     "github": "https://github.com/marily77",
     "live": "",
     "featured": true,
-    "category": "dataviz"
+    "category": "dataviz",
+    "images": [],
+    "process_et": "Protsessi kirjeldus tuleb.",
+    "process_en": "Process description coming soon."
   },
   {
     "id": 2,
@@ -19,7 +22,10 @@
     "github": "https://github.com/marily77",
     "live": "",
     "featured": true,
-    "category": "web"
+    "category": "web",
+    "images": [],
+    "process_et": "Protsessi kirjeldus tuleb.",
+    "process_en": "Process description coming soon."
   },
   {
     "id": 3,
@@ -30,7 +36,10 @@
     "github": "https://github.com/marily77",
     "live": "",
     "featured": true,
-    "category": "web"
+    "category": "web",
+    "images": [],
+    "process_et": "Protsessi kirjeldus tuleb.",
+    "process_en": "Process description coming soon."
   },
   {
     "id": 4,
@@ -41,6 +50,9 @@
     "github": "https://github.com/marily77",
     "live": "",
     "featured": false,
-    "category": "python"
+    "category": "python",
+    "images": [],
+    "process_et": "Protsessi kirjeldus tuleb.",
+    "process_en": "Process description coming soon."
   }
 ]

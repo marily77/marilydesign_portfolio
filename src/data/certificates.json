@@ -22,7 +22,7 @@
     "title": "Problem-based applied machine learning and big data analysis",
     "issuer": "Taltech",
     "year": 2026,
-    "category": "data",
+    "category": "ai",
     "image": "src/assets/certificates/probledata.jpg",
     "verifyUrl": ""
   },
@@ -40,7 +40,7 @@
     "title": "Build an AI Career Coach using an Open Source LLM",
     "issuer": "ZTM Academy",
     "year": 2026,
-    "category": "data",
+    "category": "ai",
     "image": "src/assets/certificates/llm.jpg",
     "verifyUrl": ""
   },
@@ -113,7 +113,7 @@
     "title": "AI in UI/UX Design",
     "issuer": "Uxcel",
     "year": 2023,
-    "category": "uiux",
+    "category": "ai",
     "image": "src/assets/certificates/AIinUIUXDesign.jpg",
     "verifyUrl": ""
   },
@@ -280,6 +280,15 @@
     "year": 2024,
     "category": "design",
     "image": "src/assets/certificates/lõpukasilmaisik.jpg",
+    "verifyUrl": ""
+  },
+   {
+    "id": 31,
+    "title": "The Complete A.I Machine Learning and Data Science : Zero to Mastery",
+    "issuer": "ZTM Academy",
+    "year": 2026,
+    "category": "ai",
+    "image": "src/assets/certificates/mlanddata.jpg",
     "verifyUrl": ""
   }
 
