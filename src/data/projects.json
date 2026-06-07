@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Andmeanalüüs dashboard",
+    "title": "Andmeanalüüs Dashboard",
     "description_et": "Interaktiivne dashboard Pythoni andmete visualiseerimiseks. Filtrid, graafikud ja eksport.",
     "description_en": "Interactive dashboard for Python data visualization. Filters, charts and export.",
     "tech": ["Python", "Pandas", "Plotly", "React"],
@@ -15,17 +15,47 @@
   },
   {
     "id": 2,
-    "title": "Portfoolio v1",
-    "description_et": "Esimene portfoolio leht — HTML, CSS ja vanilla JS. Responsive disain.",
-    "description_en": "First portfolio site built with HTML, CSS and vanilla JS. Responsive design.",
-    "tech": ["HTML", "CSS", "JavaScript"],
-    "github": "https://github.com/marily77",
+    "title": "Portfolio Website",
+    "description_et": "Täielikult kohandatud ühe-leheline React portfoolio, mis esitleb disaini-, arendus- ja andmeteaduse oskusi. Ehitatud esimese IT-töö taotlemiseks.",
+    "description_en": "Fully custom single-page React portfolio showcasing design, development and data science skills. Built for applying to the first IT job.",
+    "tech": ["React 18", "Vite", "react-router-dom v7", "i18next", "CSS Modules", "GitHub API", "Formspree", "Vercel"],
+    "github": "https://github.com/marily77/marilydesign_portfolio",
     "live": "",
     "featured": true,
     "category": "web",
     "images": [],
-    "process_et": "Protsessi kirjeldus tuleb.",
-    "process_en": "Process description coming soon."
+    "stats": {
+      "components": 10,
+      "certificates": 39,
+      "certCategories": 6,
+      "languages": 2
+    },
+    "components_et": [
+      "Navbar — sticky, backdrop blur, hamburger menüü, ET/EN keelevahetaja, aktiivsed lingid",
+      "Home — hero sektsioon, statistikarida, CertificatesModal päästik, FeaturedWork",
+      "FeaturedWork — 3 featured projekti, klõps navigeerib /projects ja avab modali automaatselt",
+      "ProjectCard — jagatud kaart featured ja täislehel, onClick prop, hover efektid",
+      "ProjectModal — popup projekti detailvaatega: pildid, protsess, tech stack, lingid, ESC sulgemine",
+      "Projects — täis projektileht, kategooriafiltrid (kõik/web/dataviz/python), modal autoavamine",
+      "CertificatesModal — sliding panel, filtrid (all/data/design/dev/uiux/ai), lightbox pildivaade",
+      "DataViz — GitHub API live andmed: keelejaotus donut, heatmap, bar chart, repo grid",
+      "About — isiklik tutvustus, oskused, kogemus",
+      "Contact — kaheveergne layout, valideeritud vorm, Formspree backend, GitHub + LinkedIn"
+    ],
+    "components_en": [
+      "Navbar — sticky, backdrop blur, hamburger menu, ET/EN language switcher, active links",
+      "Home — hero section, stats row, CertificatesModal trigger, FeaturedWork",
+      "FeaturedWork — 3 featured projects, click navigates to /projects and auto-opens modal",
+      "ProjectCard — shared card for featured and full page, onClick prop, hover effects",
+      "ProjectModal — project detail popup: images, process, tech stack, links, ESC close",
+      "Projects — full project page, category filters (all/web/dataviz/python), auto-open modal",
+      "CertificatesModal — sliding panel, filters (all/data/design/dev/uiux/ai), lightbox view",
+      "DataViz — live GitHub API data: language donut, heatmap, bar chart, repo grid (marily77)",
+      "About — personal intro, skills, experience",
+      "Contact — two-column layout, validated form, Formspree backend, GitHub + LinkedIn"
+    ],
+    "process_et": "1. Planeerimine — lehe struktuur, värvipaleett (#0e0e0e / #e8ff6b / #c8c4bc), fondivalik (Syne + DM Mono), lehtede kaardistamine.\n2. Põhistruktuur — React + Vite seadistamine, react-router-dom v7 marsruutimine, i18next ET/EN lokaliseerimine, globaalsed CSS muutujad.\n3. Komponendid — Navbar, Home, About, Contact järjekorras. Iga komponent eraldi JSX + CSS failiga.\n4. Andmekiht — projects.json ja certificates.json kõigi projektide ja sertifikaatide jaoks.\n5. Sertifikaadid — 39+ sertifikaati src/assets/Certificates/ kausta, new URL() + import.meta.url meetodil.\n6. Projekti modal — ProjectModal komponent useLocation + router state abil, automaatne avamine.\n7. DataViz — GitHub REST API päringud, canvas-põhised graafikud (donut, heatmap, bar).\n8. Kontaktvorm — Formspree integratsioon, kliendipoolne validatsioon.\n9. Git & GitHub — regulaarne commit ajalugu, git stash kasutamine konfliktide lahendamiseks.\n10. Deploy — GitHub repo ühendamine Verceliga, automaatne build, kohandatud domeen DNS seadistusega.",
+    "process_en": "1. Planning — page structure, color palette (#0e0e0e / #e8ff6b / #c8c4bc), font selection (Syne + DM Mono), page mapping.\n2. Base setup — React + Vite, react-router-dom v7 routing, i18next ET/EN localisation, global CSS variables.\n3. Components — Navbar, Home, About, Contact in order. Each component as separate JSX + CSS file.\n4. Data layer — projects.json and certificates.json for all projects and certificates.\n5. Certificates — 39+ certificate images in src/assets/Certificates/ via new URL() + import.meta.url.\n6. Project modal — ProjectModal using useLocation + router state for auto-open on navigation.\n7. DataViz — GitHub REST API requests, canvas-based charts (donut, heatmap, bar).\n8. Contact form — Formspree integration, client-side validation, tested successfully.\n9. Git & GitHub — regular commit history, git stash for conflict resolution.\n10. Deploy — GitHub repo connected to Vercel, automatic build, custom domain via DNS A record."
   },
   {
     "id": 3,

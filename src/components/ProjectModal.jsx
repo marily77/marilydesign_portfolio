@@ -16,8 +16,15 @@ export default function ProjectModal({ project, onClose }) {
     }
   }, [onClose])
 
-  const githubHref = project.github
-  const liveHref = project.live
+  // Process: split '\n' lines into steps array (works for both string and array)
+  const processRaw = project['process_' + lang]
+  const processSteps = Array.isArray(processRaw)
+    ? processRaw
+    : processRaw
+      ? processRaw.split('\n').filter(Boolean)
+      : []
+
+  const components = project['components_' + lang]
 
   return (
     <div className="pm-overlay" onClick={(e) => e.target === e.currentTarget && onClose()}>
@@ -33,6 +40,28 @@ export default function ProjectModal({ project, onClose }) {
           <p className="pm-desc">{project['description_' + lang]}</p>
         </div>
 
+        {/* Stats row — only if project has stats (e.g. portfolio) */}
+        {project.stats && (
+          <div className="pm-stats">
+            <div className="pm-stat">
+              <span className="pm-stat__num">{project.stats.components}</span>
+              <span className="pm-stat__label">{lang === 'et' ? 'komponenti' : 'components'}</span>
+            </div>
+            <div className="pm-stat">
+              <span className="pm-stat__num">{project.stats.certificates}+</span>
+              <span className="pm-stat__label">{lang === 'et' ? 'sertifikaati' : 'certificates'}</span>
+            </div>
+            <div className="pm-stat">
+              <span className="pm-stat__num">{project.stats.certCategories}</span>
+              <span className="pm-stat__label">{lang === 'et' ? 'kategooriat' : 'categories'}</span>
+            </div>
+            <div className="pm-stat">
+              <span className="pm-stat__num">{project.stats.languages}</span>
+              <span className="pm-stat__label">{lang === 'et' ? 'keelt' : 'languages'}</span>
+            </div>
+          </div>
+        )}
+
         {project.images?.length > 0 && (
           <div className="pm-images">
             {project.images.map((img, i) => (
@@ -41,10 +70,42 @@ export default function ProjectModal({ project, onClose }) {
           </div>
         )}
 
-        {project['process_' + lang] && (
+        {/* Components list — only if present */}
+        {components?.length > 0 && (
+          <div className="pm-section">
+            <span className="cm-label">// komponendid</span>
+            <ul className="pm-components">
+              {components.map((c, i) => (
+                <li key={i} className="pm-component-item">
+                  <span className="pm-component-name">{c.split(' — ')[0]}</span>
+                  {c.includes(' — ') && (
+                    <span className="pm-component-desc"> — {c.split(' — ')[1]}</span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Process steps */}
+        {processSteps.length > 0 && (
           <div className="pm-section">
             <span className="cm-label">// protsess</span>
-            <p className="pm-process">{project['process_' + lang]}</p>
+            <ol className="pm-process-steps">
+              {processSteps.map((step, i) => {
+                // Strip leading "1. " numbering if present (we use <ol>)
+                const text = step.replace(/^\d+\.\s*/, '')
+                const [title, ...rest] = text.split(' — ')
+                return (
+                  <li key={i} className="pm-step">
+                    <span className="pm-step__title">{title}</span>
+                    {rest.length > 0 && (
+                      <span className="pm-step__desc"> — {rest.join(' — ')}</span>
+                    )}
+                  </li>
+                )
+              })}
+            </ol>
           </div>
         )}
 
@@ -57,12 +118,12 @@ export default function ProjectModal({ project, onClose }) {
 
         <div className="pm-links">
           {project.github && (
-            <a href={githubHref} target="_blank" rel="noreferrer" className="btn">
+            <a href={project.github} target="_blank" rel="noreferrer" className="btn">
               GitHub ↗
             </a>
           )}
           {project.live && (
-            <a href={liveHref} target="_blank" rel="noreferrer" className="btn btn--accent">
+            <a href={project.live} target="_blank" rel="noreferrer" className="btn btn--accent">
               Live ↗
             </a>
           )}
