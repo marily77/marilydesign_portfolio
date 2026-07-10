@@ -1,4 +1,4 @@
-# Marily Tamm — Creative Technologist Portfolio
+# Marily Valkijainen — Creative Technologist Portfolio
 
 A bilingual (Estonian / English) personal portfolio built with React and Vite, featuring an interactive particle cloud animation, data visualizations, and a clean dark aesthetic.
 
