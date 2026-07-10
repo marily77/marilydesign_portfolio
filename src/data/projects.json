@@ -1,18 +1,5 @@
 [
-  {
-    "id": 1,
-    "title": "Andmeanalüüs Dashboard",
-    "description_et": "Interaktiivne dashboard Pythoni andmete visualiseerimiseks. Filtrid, graafikud ja eksport.",
-    "description_en": "Interactive dashboard for Python data visualization. Filters, charts and export.",
-    "tech": ["Python", "Pandas", "Plotly", "React"],
-    "github": "https://github.com/marily77",
-    "live": "",
-    "featured": true,
-    "category": "dataviz",
-    "images": [],
-    "process_et": "Protsessi kirjeldus tuleb.",
-    "process_en": "Process description coming soon."
-  },
+
   {
     "id": 2,
     "title": "Portfolio Website",
@@ -20,7 +7,7 @@
     "description_en": "Fully custom single-page React portfolio showcasing design, development and data science skills. Built for applying to the first IT job.",
     "tech": ["React 18", "Vite", "react-router-dom v7", "i18next", "CSS Modules", "GitHub API", "Formspree", "Vercel"],
     "github": "https://github.com/marily77/marilydesign_portfolio",
-    "live": "",
+    "live": "www.marilydesign.com",
     "featured": true,
     "category": "web",
     "images": [],
@@ -147,5 +134,19 @@
     "images": ["Tagasiloodusesse.webm","landingpageanimation.webm","bonzz.mp4","karu.png","kek.png"],
     "process_et": "Valik erinevatest disainiprojektidest, tehtud aastate jooksul erinevate tööriistadega. Sisaldab veebilehe disaine, graafilise disaini identiteete (CVI), toodete stilisatsiooni ning Figmas loodud splash-screen prototüüpe. Eesmärk on näidata disainioskuste ulatust enne frontend arendusse liikumist — samad põhimõtted (kompositsioon, tüpograafia, värvisüsteem), mida rakendatakse nüüd ka koodis.",
     "process_en": "A selection of design projects made over the years using different tools. Includes website designs, graphic design identities (CVI), product stylisation, and Figma splash-screen prototypes. The goal is to show the range of design skills prior to moving into frontend development — the same principles (composition, typography, color systems) now carried through into code."
+  },
+  {
+    "id": 1,
+    "title": "Andmeanalüüs Dashboard",
+    "description_et": "Interaktiivne dashboard Pythoni andmete visualiseerimiseks. Filtrid, graafikud ja eksport.",
+    "description_en": "Interactive dashboard for Python data visualization. Filters, charts and export.",
+    "tech": ["Python", "Pandas", "Plotly", "React"],
+    "github": "https://github.com/marily77",
+    "live": "",
+    "featured": true,
+    "category": "dataviz",
+    "images": [],
+    "process_et": "Protsessi kirjeldus tuleb.",
+    "process_en": "Process description coming soon."
   }
 ]
