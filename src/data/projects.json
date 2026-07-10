@@ -59,30 +59,93 @@
   },
   {
     "id": 3,
-    "title": "Ilmarakendus",
-    "description_et": "OpenWeather API kasutamine Reactis. Otsing, ikoonid, 5-päeva prognoos.",
-    "description_en": "Weather app using OpenWeather API in React. Search, icons, 5-day forecast.",
-    "tech": ["React", "API", "CSS"],
-    "github": "https://github.com/marily77",
-    "live": "",
+    "title": "Interactive Design Showcase",
+    "description_et": "Üks lehekülg, viis erinevat veebidisaini lähenemist — puhtal HTML, CSS ja JavaScriptil, ilma raamistike ja build-tööriistadeta. Loodud kutseõpetaja kandidatuuri ja frontend arendaja töövestluste jaoks, et näidata UI/UX mõtlemist, frontend oskusi ja liikumisdisaini tehnikaid ühe sidusa kogemuse raames.",
+    "description_en": "A single-page exploration of five distinct web design approaches — built with plain HTML, CSS and JavaScript, no frameworks or build tools. Created as a portfolio piece for vocational teacher candidacy and frontend developer interviews, demonstrating UI/UX thinking and motion design across one cohesive experience.",
+    "tech": ["HTML5", "CSS3", "Vanilla JavaScript", "Intersection Observer", "CSS Custom Properties"],
+    "github": "https://marily77.github.com/designpages",
+    "live": "https://marily77.github.io/designpages/",
     "featured": true,
-    "category": "web",
-    "images": [],
-    "process_et": "Protsessi kirjeldus tuleb.",
-    "process_en": "Process description coming soon."
+    "category": "webdesign",
+    "images":["classicvid.webm","artfest.webm","nova.mp4,","retro.webm"],
+    "components_et": [
+      "Classic — korporatiivne/konsultatsiooni stiil — grid-süsteemid, tüpograafia, valge ruum",
+      "Brutalist — digitaalse kunstifestivali stiil — jäme kiri, kõrge kontrast, teadlik reeglite rikkumine",
+      "Product — AI-kõlari müügileht — kerimisel põhinev jutustus, kleepuvad visuaalid",
+      "Retro — 90ndate mängukonsool — scanline'id, glitch-efektid, pikslifont",
+      "Motion Ads — 5 reklaamikontseptsiooni — viis erinevat hover-põhist liikumiskeelt"
+     ],
+    "components_en": [
+      "Classic — corporate/consulting style — grid systems, typography, whitespace",
+      "Brutalist — digital art festival style — bold type, high contrast, intentional rule-breaking",
+      "Product — AI speaker landing page — scroll-driven storytelling, sticky visuals",
+      "Retro — 90s game console — scanlines, glitch effects, pixel typography",
+      "Motion Ads — 5 ad concepts — five distinct hover-driven motion languages"
+     ],
+    "process_et": [
+      "Disainitoodid, mitte kõvasti kodeeritud väärtused — iga värv, font ja vahekaugus elab CSS custom propertyna main.css failis; teemavahetaja lihtsalt määrab need muutujad <body>-le ümber.",
+      "Igal sektsioonil oma liikumiskeel — fade-in Classicu jaoks, pööramine/inversioon Brutalisti jaoks, kleepuv scroll-scaling Producti jaoks, astmeline glitch Retro jaoks, viis erinevat hover-käitumist reklaamigaleriis.",
+      "prefers-reduced-motion toetatud läbivalt — animatsioonid jäetakse vahele kasutajatele, kes eelistavad vähendatud liikumist.",
+      "Üks lehekülg, mitte viis — teadlik otsus. Projekt on üks sidus tervik, mitte viis eraldi sihtkohta; kerimisriba ja sujuv navigeerimine on mõttekad ainult ühtse kogemusena."
+     ],
+    "process_en": ["Design tokens, not hardcoded values — every color, font and spacing value lives in a CSS custom property in main.css; the theme switcher simply reassigns those variables on <body>.",
+      "Each section gets its own motion language — fade-ins for Classic, rotation/inversion for Brutalist, sticky scroll-scaling for Product, stepped glitch for Retro, five distinct hover treatments for the ad gallery.",
+      "prefers-reduced-motion respected throughout — animations are skipped for users who request reduced motion.",
+      "One page, not five — deliberate choice. The project is one cohesive demonstration rather than five separate destinations; the scroll progress bar and smooth navigation only make sense as a single continuous experience."
+     ]
   },
   {
     "id": 4,
-    "title": "Projekt 4",
-    "description_et": "Kirjeldus tuleb.",
-    "description_en": "Description coming soon.",
-    "tech": ["Python"],
-    "github": "https://github.com/marily77",
-    "live": "",
+    "title": "Wise¤¤¤¤¤g Brand & Campaign Concept",
+    "description_et": "Iseseisvalt loodud brändi- ja turunduskontseptsioon, tehtud vastusena Brand & Marketing Designeri töökuulutusele mängude hostimise ettevõttes. Üks lehekülg, mis näitab kolme tegelikku deliverable't: sotsiaalmeedia postitused, blogi visuaal ja kampaaniabänner, koos Classic/Modern stiili lülitiga sama sisu kahes visuaalses suunas.",
+    "description_en": "A self-directed brand and marketing design concept, made in response to an open Brand & Marketing Designer role at a game-hosting company. A single-page case study demonstrating three real deliverables: social assets, a blog visual and a campaign banner, plus a Classic/Modern style toggle showing the same content in two visual directions.",
+    "tech": ["HTML5", "CSS3", "Vanilla JavaScript", "Intersection Observer", "CSS Custom Properties"],
+    "github": "https://github.com/marily77/mcdesign",
+    "live": "https://marily77.github.io/mcdesign/",
     "featured": false,
-    "category": "python",
-    "images": [],
-    "process_et": "Protsessi kirjeldus tuleb.",
-    "process_en": "Process description coming soon."
+    "category": "webdesign",
+    "images": ["mc1.webp","mc2.webp","mc3.webp"],
+    "components_et": [
+    "Sotsiaalmeedia postitused — Instagram, X ja Discord kontseptsioonid — sama funktsiooni lansseerimine, kohandatud igale platvormile",
+    "Blogi visuaal — päise kujundus tehnilise/tulemuslikkuse sisu jaoks",
+    "Kampaaniabänner — reklaambänneri kontseptsioon",
+    "Disaini põhjendus — lühikesed märkused värvi-, kirja- ja paigutusvalikute kohta",
+    "Classic/Modern lüliti — sama sisu kahes visuaalses suunas — rahulik/toimetuslik vs julge/kõrge kontrast"
+   ],
+    "components_en": [
+    "Social assets — Instagram, X and Discord concepts — same feature launch, adapted per platform",
+    "Blog visual — header treatment for technical/performance content",
+    "Campaign banner — promotional banner concept",
+    "Design rationale — short notes on color, type and layout choices",
+    "Classic/Modern toggle — same content in two visual directions — calm/editorial vs bold/high-contrast"
+   ],
+    "process_et": [
+    "Üks HTML-fail — kogu markup, stiilid ja skript ühes index.html failis, ilma raamistike ja build-sammuta.",
+    "CSS custom properties juhivad kogu värvisüsteemi, sh Classic/Modern lülitit — sama põhimõte, mida kasutasid ka teistes projektides (design tokens, mitte kõvasti kodeeritud väärtused).",
+    "IntersectionObserver kerimisel käivituvate fade-in efektide jaoks.",
+    "Fondivalik toetab brändi tooni — Space Grotesk pealkirjadele, Inter põhitekstile, IBM Plex Mono andmete/siltide jaoks.",
+    "Mitteametlik kontseptsioon — ei kasuta päris brändi assette, logosid ega tekste; kogu visuaal ja tekst on originaalne, loodud näitamaks, kuidas rolli lähenetaks."
+   ],
+    "process_en": [
+    "Single HTML file — all markup, styles and script live in one index.html, no frameworks or build step.",
+    "CSS custom properties drive the whole color system, including the Classic/Modern toggle — same design-tokens approach used across other projects.",
+    "IntersectionObserver for scroll-triggered fade-ins.",
+    "Typography supports brand tone — Space Grotesk for display, Inter for body, IBM Plex Mono for data/labels.",
+    "Unofficial concept — uses no real brand assets, logos, or copy; every visual and piece of text is original work built to demonstrate approach to the role."
+   ]
+  },
+ {
+    "id": 5,
+    "title": "Showcase of Older Design Work",
+    "description_et": "Kogumik varasematest disainitöödest — osad pärinevad veel kooliajast — mis näitavad laia disainioskuste ulatust: veebilehe disainid, graafilise disaini CVI-d, tootestilisatsioon ja Figma splash-screen prototüübid. Galerii piltide ja videote kujul, mis annab ülevaate teekonnast enne tarkvaraarendusse liikumist.",
+    "description_en":"A collection of older design work — some dating back to school years — showing a broad range of design skills: website designs, graphic design CVIs, product stylisation, and Figma splash-screen prototypes. A gallery of images and videos giving an overview of the journey before moving into software development.",
+    "tech": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Adobe After Effects", "Webflow"],
+    "github": "",
+    "live": "https://marilys-proovikas.webflow.io/",
+    "featured": false,
+    "category": "webdesign",
+    "images": ["Tagasiloodusesse.webm","landingpageanimation.webm","bonzz.mp4","karu.png","kek.png"],
+    "process_et": "Valik erinevatest disainiprojektidest, tehtud aastate jooksul erinevate tööriistadega. Sisaldab veebilehe disaine, graafilise disaini identiteete (CVI), toodete stilisatsiooni ning Figmas loodud splash-screen prototüüpe. Eesmärk on näidata disainioskuste ulatust enne frontend arendusse liikumist — samad põhimõtted (kompositsioon, tüpograafia, värvisüsteem), mida rakendatakse nüüd ka koodis.",
+    "process_en": "A selection of design projects made over the years using different tools. Includes website designs, graphic design identities (CVI), product stylisation, and Figma splash-screen prototypes. The goal is to show the range of design skills prior to moving into frontend development — the same principles (composition, typography, color systems) now carried through into code."
   }
 ]

@@ -62,11 +62,25 @@ export default function ProjectModal({ project, onClose }) {
           </div>
         )}
 
+        {/* Images / videos — video files (.webm/.mp4) render as looping muted video, everything else as img */}
         {project.images?.length > 0 && (
           <div className="pm-images">
-            {project.images.map((img, i) => (
-              <img key={i} src={img} alt={`${project.title} ${i + 1}`} className="pm-img" />
-            ))}
+            {project.images.map((src, i) => {
+              const isVideo = /\.(webm|mp4)$/i.test(src)
+              return isVideo ? (
+                <video
+                  key={i}
+                  src={src}
+                  className="pm-img"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                />
+              ) : (
+                <img key={i} src={src} alt={`${project.title} ${i + 1}`} className="pm-img" />
+              )
+            })}
           </div>
         )}
 

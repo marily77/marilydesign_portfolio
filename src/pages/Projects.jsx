@@ -6,7 +6,7 @@ import ProjectModal from '../components/ProjectModal'
 import projects from '../data/projects.json'
 import './Projects.css'
 
-const CATEGORIES = ['kõik', 'web', 'dataviz', 'python']
+const CATEGORIES = ['kõik', 'web', 'dataviz', 'python', 'webdesign']
 
 function Projects() {
   const { t } = useTranslation()

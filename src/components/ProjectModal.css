@@ -191,7 +191,7 @@
   gap: 0.75rem;
   font-size: 0.85rem;
   line-height: 1.5;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .pm-step::before {
@@ -208,7 +208,7 @@
   color: #e8ff6b;
   font-family: 'DM Mono', monospace;
   font-size: 0.8rem;
-  white-space: nowrap;
+
 }
 
 .pm-step__desc {
