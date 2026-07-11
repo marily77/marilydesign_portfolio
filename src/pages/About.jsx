@@ -250,7 +250,7 @@ export default function About() {
           <StatBadge value={31} suffix="+" label={t("about.stats.projects")} active={statsInView} />
           <StatBadge value={22}  suffix="+"  label={t("about.stats.years")}    active={statsInView} />
           <StatBadge value={12} suffix=""   label={t("about.stats.certs")}    active={statsInView} />
-          <StatBadge value={8}  suffix=""   label={t("about.stats.tools")}    active={statsInView} />
+          <StatBadge value={10}  suffix=""   label={t("about.stats.tools")}    active={statsInView} />
         </div>
       </section>
 
