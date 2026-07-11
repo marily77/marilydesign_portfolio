@@ -180,17 +180,30 @@
   }
 
   .stats-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem 1rem;
-    margin-top: 2.5rem;
-    padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+  animation: fadeUp 0.7s ease forwards 0.9s;
+  opacity: 0;
+}
+
+.stat-item {
+  flex: 1 1 0;
+  text-align: left;
+}
   }
 
-  .stat-num {
-    font-size: 1.5rem;
-  }
+.stat-num {
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 800;
+  color: var(--accent);
+  letter-spacing: -0.02em;
 }
+
 
 @media (max-width: 400px) {
   .home {

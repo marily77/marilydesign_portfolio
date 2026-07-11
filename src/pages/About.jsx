@@ -1,52 +1,88 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./About.css";
-import profileImg from "../assets/crumpycats.jpg";
+import profileImg from "../assets/naoke.jpg";
 
 // ── Skills data ──────────────────────────────────────────────────────────────
 const SKILLS = [
   {
-    category_key: "skills.cat.data",
-    items: ["Python", "Pandas", "NumPy", "SQL", "R", "Excel"],
+    category_key: "skills.cat.creative",
+    items: ["Adobe Photoshop", "Adobe Illustrator", "After Effects", "Figma", "Affinity", "Procreate" , "Floral Design"],
   },
   {
-    category_key: "skills.cat.viz",
-    items: ["Power BI", "Tableau", "D3.js", "Matplotlib", "Seaborn"],
-  },
-  {
-    category_key: "skills.cat.ml",
-    items: ["Scikit-learn", "TensorFlow", "NLP", "Regression", "Clustering"],
+    category_key: "skills.cat.design",
+    items: ["Webflow", "WordPress", "UI/UX", "Typography", "Design Systems"],
   },
   {
     category_key: "skills.cat.dev",
-    items: ["React", "JavaScript", "Git", "REST APIs", "Figma"],
+    items: ["React", "JavaScript", "Vite", "Git", "REST APIs"],
+  },
+  {
+    category_key: "skills.cat.data",
+    items: ["Python", "Pandas", "SQL", "NumPy", "Machine Learning basics"],
   },
 ];
 
 const TIMELINE = [
   {
-    year: "2024",
+    year: "2002",
     title_key: "about.timeline.t1.title",
     desc_key: "about.timeline.t1.desc",
     type: "work",
   },
   {
-    year: "2023",
+    year: "2011",
     title_key: "about.timeline.t2.title",
     desc_key: "about.timeline.t2.desc",
     type: "edu",
   },
   {
-    year: "2022",
+    year: "2013",
     title_key: "about.timeline.t3.title",
     desc_key: "about.timeline.t3.desc",
-    type: "work",
+    type: "art",
   },
   {
-    year: "2020",
+    year: "2015",
     title_key: "about.timeline.t4.title",
     desc_key: "about.timeline.t4.desc",
     type: "edu",
+  },
+  {
+    year: "2018",
+    title_key: "about.timeline.t5.title",
+    desc_key: "about.timeline.t5.desc",
+    type: "edu",
+  },
+  {
+    year: "2018",
+    title_key: "about.timeline.t6.title",
+    desc_key: "about.timeline.t6.desc",
+    type: "work",
+  },
+  {
+    year: "2018",
+    title_key: "about.timeline.t7.title",
+    desc_key: "about.timeline.t7.desc",
+    type: "art",
+  },
+  {
+    year: "2021",
+    title_key: "about.timeline.t8.title",
+    desc_key: "about.timeline.t8.desc",
+    type: "edu",
+  },
+  {
+    year: "2024",
+    title_key: "about.timeline.t9.title",
+    desc_key: "about.timeline.t9.desc",
+    type: "dev",
+  },
+  {
+    year: "2025",
+    title_key: "about.timeline.t10.title",
+    desc_key: "about.timeline.t10.desc",
+    type: "work",
   },
 ];
 
@@ -211,8 +247,8 @@ export default function About() {
       {/* ── STATS ── */}
       <section className="about-stats" ref={statsRef}>
         <div className="container about-stats__row">
-          <StatBadge value={30} suffix="+" label={t("about.stats.projects")} active={statsInView} />
-          <StatBadge value={5}  suffix="+"  label={t("about.stats.years")}    active={statsInView} />
+          <StatBadge value={31} suffix="+" label={t("about.stats.projects")} active={statsInView} />
+          <StatBadge value={22}  suffix="+"  label={t("about.stats.years")}    active={statsInView} />
           <StatBadge value={12} suffix=""   label={t("about.stats.certs")}    active={statsInView} />
           <StatBadge value={8}  suffix=""   label={t("about.stats.tools")}    active={statsInView} />
         </div>

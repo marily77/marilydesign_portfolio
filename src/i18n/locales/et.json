@@ -93,61 +93,80 @@
     "label": "valitud tööd",
     "all": "kõik projektid"
   },
+"about.label": "— minust",
 
-  "about.label": "— minust",
+"about.heading.line1": "Kunstist",
+"about.heading.line2": "koodini.",
 
-  "about.heading.line1": "Panen andmed",
-  "about.heading.line2": "visuaalselt elama!",
+"about.intro": "Disainer-arendaja, kelle teekond on kulgenud läbi floristika, kunsti ja formaalse disainihariduse — ning nüüd ka frontend-arenduse ja andmeteaduse. Iga peatus on jätnud jälje selles, kuidas ma probleeme lahendan.",
 
-  "about.intro": "Olen andmeanalüütik ja visualiseerimise entusiast, kes usub, et iga numbrite kogum peidab endas midagi olulist — vaja on vaid õige nurk leida.",
+"about.portrait_tag": "Saaremaa, Eesti",
 
-  "about.portrait_tag": "Tallinn, Eesti",
+"about.bio.heading": "Kes on Marily?",
 
-  "about.bio.heading": "Kes on Marily?",
+"about.bio.p1": "Minu tee ei ole olnud sirgjooneline — ja see on hea. Alustasin lilleseadjana, veetsin aastaid Suurbritannias maalikunstnikuna ja illustraatorina, seejärel naasin Eestisse ning ehitasin samal ajal üles nii lillepoe kui ka formaalse disainihariduse graafilises ja interaktiivses disainis.",
 
-  "about.bio.p1": "Minu teekond andmetega algas uudishimust — tahtsin mõista, miks asjad toimivad nii nagu toimivad. Tänaseks olen muutnud selle küsimuse oma töömeetodiks: kombineerin statistilist analüüsi, visuaalset disaini ja domeeniteadmisi, et luua lahendusi, millest on päriselt kasu.",
+"about.bio.p2": "See mitmekülgsus pole minu jaoks hajutatus, vaid tööriistakast: kompositsiooni- ja värvitaju floristikast ja maalikunstist, kliendisuhtluse ja käsitööoskuse teenindusest, ning nüüd loogilise struktuuri ja tehnilise täpsuse frontend-arendusest.",
 
-  "about.bio.p2": "Olen töötanud nii väikeste iduettevõtetega kui suurte andmemahukatele valdkondadega — finants, tervishoid, e-kaubandus. Iga projekt on õpetanud midagi uut selle kohta, kuidas inimesed andmeid tegelikult kasutavad (ja vääriti kasutavad).",
+"about.bio.p3": "Praegu laiendan seda oskustepagasit süsteemselt — React, Python ja andmeteadus — eesmärgiga töötada frontend-arendajana või disaineri-arendaja rollis, kus loov ja tehniline pool saavad kokku.",
 
-  "about.bio.p3": "Vabal ajal eksperimenteerin D3.js-iga, osalen Kaggle'i võistlustel ja joon liiga palju kohvi.",
+"about.bio.cta": "Võta ühendust",
 
-  "about.bio.cta": "Võta ühendust",
+"about.stats.projects": "projekti",
+"about.stats.years": "aastat kogemust",
+"about.stats.certs": "sertifikaati",
+"about.stats.tools": "tööriista",
 
-  "about.stats.projects": "projekti",
-  "about.stats.years": "aastat kogemust",
-  "about.stats.certs": "sertifikaati",
-  "about.stats.tools": "tööriista",
+"about.skills.heading": "Mida ma kasutan",
 
-  "about.skills.heading": "Mida kasutan",
+"skills.cat.creative": "Loovtööriistad",
+"skills.cat.design": "Disain & Veeb",
+"skills.cat.dev": "Arendus",
+"skills.cat.data": "Andmed",
 
-  "skills.cat.data": "Andmetöötlus",
-  "skills.cat.viz": "Visualiseerimine",
-  "skills.cat.ml": "Masinõpe",
-  "skills.cat.dev": "Arendus",
+"about.timeline.heading": "Minu teekond",
 
-  "about.timeline.heading": "Teekond",
+"about.timeline.t1.title": "Florist — Christmas Rose OÜ",
+"about.timeline.t1.desc": "Lilleseadete valmistamine (kimbud, pulmakimbud, pärjad) ja kaupluse töö korraldamine. 2007. aastal osalesin Eesti Meistrivõistlustel lilleseades.",
 
-  "about.timeline.t1.title": "Vanem andmeanalüütik — TechCorp OÜ",
-  "about.timeline.t1.desc": "Ehitasin ettevõttesisesed BI-lahendused ja juhtimispaneelid, mis lühendasid otsustusaega 40%.",
+"about.timeline.t2.title": "Joonistamine ja maalikunst — London Art College",
+"about.timeline.t2.desc": "Diplomiõpe joonistamises ja maalikunstis Suurbritannias, hiljem täiendasin end ka lasteraamatute illustreerimises.",
 
-  "about.timeline.t2.title": "MSc Andmeteadus — TalTech",
-  "about.timeline.t2.desc": "Lõputöö: klientide käitumismustrite tuvastamine e-kaubanduse andmestikes NLP meetoditega.",
+"about.timeline.t3.title": "Kunstnik/disainer — Marily's Art Nest",
+"about.timeline.t3.desc": "Maalimine ja kunsti müük, tellimustööd, klienditöö, koolituste juhendamine ning e-poe ja turunduse haldamine Suurbritannias.",
 
-  "about.timeline.t3.title": "Andmeanalüütik — Startup XYZ",
-  "about.timeline.t3.desc": "Kasutajaandmete analüüs ja A/B testimise raamistiku ülesehitamine nullist.",
+"about.timeline.t4.title": "Graafiline disain — Kuressaare Ametikool",
+"about.timeline.t4.desc": "Kutseharidus graafilises disainis — logod, bännerid, küljendus.",
 
-  "about.timeline.t4.title": "BSc Informaatika — Tartu Ülikool",
-  "about.timeline.t4.desc": "Eriala rõhuasetus andmebaaside disain ja algoritmid.",
+"about.timeline.t5.title": "Florist — Leandra Trading OÜ",
+"about.timeline.t5.desc": "Vanemfloristina lilleseadete valmistamine ja kaupluse igapäevane juhtimine — sisseost, väljapanek, kliendi- ja partnerisuhted.",
 
-  "about.values.heading": "Millesse usun",
+"about.timeline.t6.title": "Interaktiivse graafika kujundaja — Kuressaare Ametikool",
+"about.timeline.t6.desc": "Kutseharidus veebi- ja reklaamdisainis, keskendudes interaktiivsetele lahendustele.",
 
-  "about.values.clarity.title": "Selgus",
-  "about.values.clarity.desc": "Parim analüüs on see, millest ka mittetehnilised otsustajad aru saavad. Keerukus on vajalik; segadus mitte kunagi.",
+"about.timeline.t7.title": "Frontend-arendus & andmeteadus",
+"about.timeline.t7.desc": "Iseseisev süvenemine Reacti, Pythoni ja andmeteadusesse — kaasaegse portfoolio ehitamine ja üleminek tehnoloogiasektorisse.",
 
-  "about.values.curiosity.title": "Uudishimu",
-  "about.values.curiosity.desc": "Parimatest vastustest sünnivad paremad küsimused. Jätkan kaevamist ka siis, kui esimene hüpotees paika ei pea.",
+"about.timeline.t8.title": "Interaktiivse graafika kujundaja (UI/UX) — Kuressaare ametikool",
+"about.timeline.t8.desc": "Rakenduslik kutseharidus UI/UX ja veebidisainis",
 
-  "about.values.craft.title": "Meisterlikkus",
-  "about.values.craft.desc": "Detailid loevad — nii koodis kui kujunduses. Hea töö näitab, et autor hoolib."
+"about.timeline.t9.title": "Frontend arendus ja andmeteadus ning masinõpe",
+"about.timeline.t9.desc": "Iseseisev õpe ja projektid React, Python, masinõpe , frontend alal ",
+
+"about.timeline.t10.title": "Florist — Öölill",
+"about.timeline.t10.desc": "Lilleseadete valmistamine (kimbud, pulmakimbud, pärjad) ja kaupluse töö korraldamine.",
+
+"about.values.heading": "Mida ma väärtustan",
+
+"about.values.clarity.title": "Selgus",
+"about.values.clarity.desc": "Parim lahendus on see, millest saab aru ka valdkonda mittetundev inimene — olgu see disain, kood või lilleseade.",
+
+"about.values.curiosity.title": "Uudishimu",
+"about.values.curiosity.desc": "Iga uus oskus on avanud ukse järgmisele. Ma õpin jätkuvalt, isegi kui esimene lahendus juba töötab.",
+
+"about.values.craft.title": "Käsitöö",
+"about.values.craft.desc": "Detailid loevad — nii koodis, disainis kui lilleseades. Hea töö näitab, et selle autor hoolib."
+ 
+  
 }
 

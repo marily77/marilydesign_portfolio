@@ -92,60 +92,81 @@
     "all": "all projects"
   },
 
-  "about.label": "— about me",
+"about.label": "— about me",
 
-  "about.heading.line1": "I love data,",
-  "about.heading.line2": "I tell stories.",
+"about.heading.line1": "From art",
+"about.heading.line2": "to code.",
 
-  "about.intro": "I'm a data analyst and visualisation enthusiast who believes every dataset hides something meaningful — you just need to find the right angle.",
+"about.intro": "A designer-developer whose path has run through floristry, art, and formal design education — and now front-end development and data science. Every stop has shaped how I approach problems.",
 
-  "about.portrait_tag": "Tallinn, Estonia",
+"about.portrait_tag": "Saaremaa, Estonia",
 
-  "about.bio.heading": "Who is Marily?",
+"about.bio.heading": "Who is Marily?",
 
-  "about.bio.p1": "My journey with data started from curiosity — I wanted to understand why things work the way they do. Today that question has become my methodology: I combine statistical analysis, visual design, and domain knowledge to build solutions that genuinely matter.",
+"about.bio.p1": "I'm a creative technologist with over 20 years of experience at the intersection of art, design, and visual storytelling. Having built a professional career across floristry, visual design, and artistic practice, I bring strong aesthetic judgment, client experience, and strategic thinking into the digital space.",
 
-  "about.bio.p2": "I've worked with small start-ups and large data-heavy sectors alike — finance, healthcare, e-commerce. Each project has taught me something new about how people actually use (and misuse) data.",
+"about.bio.p2": "In recent years, I have deepened my expertise in technology through applied higher education in Graphic Design and Interactive Media, alongside focused studies in Python, web development, and data analysis.",
 
-  "about.bio.p3": "In my spare time I experiment with D3.js, compete on Kaggle, and drink too much coffee with a sea view.",
+"about.bio.p3": "I'm particularly interested in building visually refined, user-centered digital solutions through front-end development and data visualization — where structure meets creativity and data becomes meaningful. I'm also exploring applied AI and machine learning in creative and data-driven solutions.",
 
-  "about.bio.cta": "Get in touch",
+"about.bio.cta": "Get in touch",
 
-  "about.stats.projects": "projects",
-  "about.stats.years": "years experience",
-  "about.stats.certs": "certificates",
-  "about.stats.tools": "tools",
+"about.stats.projects": "projects",
+"about.stats.years": "years experience",
+"about.stats.certs": "certificates",
+"about.stats.tools": "tools",
 
-  "about.skills.heading": "What I use",
+"about.skills.heading": "What I use",
 
-  "skills.cat.data": "Data Processing",
-  "skills.cat.viz": "Visualisation",
-  "skills.cat.ml": "Machine Learning",
-  "skills.cat.dev": "Development",
+"skills.cat.creative": "Creative Tools",
+"skills.cat.design": "Design & Web",
+"skills.cat.dev": "Development",
+"skills.cat.data": "Data",
 
-  "about.timeline.heading": "My journey",
+"about.timeline.heading": "My journey",
 
-  "about.timeline.t1.title": "Senior Data Analyst — TechCorp OÜ",
-  "about.timeline.t1.desc": "Built internal BI solutions and dashboards that cut decision-making time by 40%.",
+"about.timeline.t1.title": "Florist — Christmas Rose OÜ",
+"about.timeline.t1.desc": "Creating floral arrangements (bouquets, wedding bouquets, wreaths, decorations) and running shop operations. Competed in the Estonian Floristry Championship in 2007.",
 
-  "about.timeline.t2.title": "MSc Data Science — TalTech",
-  "about.timeline.t2.desc": "Thesis: identifying customer behaviour patterns in e-commerce datasets with NLP methods.",
+"about.timeline.t2.title": "Diploma in Drawing and Painting — London Art College",
+"about.timeline.t2.desc": "Art education in the United Kingdom, laying the foundation for my later career as an artist.",
 
-  "about.timeline.t3.title": "Data Analyst — Startup XYZ",
-  "about.timeline.t3.desc": "User data analysis and building an A/B testing framework from scratch.",
+"about.timeline.t3.title": "Artist/Designer — Marily's Art Nest (UK)",
+"about.timeline.t3.desc": "Ran my own art business in the UK: painting and art sales, commissioned work, client base building, workshop facilitation, marketing, and e-shop management.",
 
-  "about.timeline.t4.title": "BSc Computer Science — University of Tartu",
-  "about.timeline.t4.desc": "Focus on database design and algorithms.",
+"about.timeline.t4.title": "Diploma in Illustrating Children's Books — London Art College",
+"about.timeline.t4.desc": "Continued studies in illustration, alongside running my own art business.",
 
-  "about.values.heading": "What I believe in",
+"about.timeline.t5.title": "Graphic Design — Kuressaare Regional Training School",
+"about.timeline.t5.desc": "Vocational education in graphic design — logos, banners, layout.",
 
-  "about.values.clarity.title": "Clarity",
-  "about.values.clarity.desc": "The best analysis is one even non-technical decision-makers can understand. Complexity is necessary; confusion never is.",
+"about.timeline.t6.title": "Florist — Leandra Trading OÜ",
+"about.timeline.t6.desc": "Creating floral arrangements and running day-to-day shop operations — purchasing, displays, client and partner relations.",
 
-  "about.values.curiosity.title": "Curiosity",
-  "about.values.curiosity.desc": "Better answers lead to better questions. I keep digging even when the first hypothesis doesn't hold.",
+"about.timeline.t7.title": "Artist — Marily's Art Nest (Estonia)",
+"about.timeline.t7.desc": "My art practice continues in Estonia in a new form: gallery sales, exhibitions, event organizing, and social media management.",
 
-  "about.values.craft.title": "Craft",
-  "about.values.craft.desc": "Details matter — in code as much as design. Good work shows that its author cares."
+"about.timeline.t8.title": "Interaction Design (UI/UX) — Kuressaare Regional Training School",
+"about.timeline.t8.desc": "Vocational education in user interface and user experience design.",
+
+"about.timeline.t9.title": "Front-end Development & Data Science",
+"about.timeline.t9.desc": "Self-directed study in React, Python, and data science — building a modern portfolio and transitioning into tech.",
+
+"about.timeline.t10.title": "Florist — Öölill",
+"about.timeline.t10.desc": "Creating floral arrangements and running shop operations, same core responsibilities as at Leandra Trading.",
+
+"about.values.heading": "What I believe in",
+
+"about.values.clarity.title": "Clarity",
+"about.values.clarity.desc": "The best solution is one anyone can understand, whether it's design, code, or a floral arrangement.",
+
+"about.values.curiosity.title": "Curiosity",
+"about.values.curiosity.desc": "Every new skill has opened a door to the next. I keep learning, even when the first solution already works.",
+
+"about.values.craft.title": "Craft",
+"about.values.craft.desc": "Details matter — in code, in design, and in flowers. Good work shows that its author cares."
+
+
+ 
 }
 
