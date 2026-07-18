@@ -104,9 +104,9 @@
 
 "about.bio.heading": "Kes on Marily?",
 
-"about.bio.p1": "Minu tee ei ole olnud sirgjooneline — ja see on hea. Alustasin lilleseadjana, veetsin aastaid Suurbritannias maalikunstnikuna ja illustraatorina, seejärel naasin Eestisse ning ehitasin samal ajal üles nii lillepoe kui ka formaalse disainihariduse graafilises ja interaktiivses disainis.",
+"about.bio.p1": "Minu tee ei ole olnud põnev ja loominguline. Alustasin juuksurina (10 a) lilleseadjana(7 a), veetsin 10 aastat Suurbritannias maalikunstnikuna ja illustraatorina, seejärel naasin Eestisse ning ehitasin samal ajal üles nii lillepoe kui ka formaalse disainihariduse graafilises ja interaktiivses disainis.",
 
-"about.bio.p2": "See mitmekülgsus pole minu jaoks hajutatus, vaid tööriistakast: kompositsiooni- ja värvitaju floristikast ja maalikunstist, kliendisuhtluse ja käsitööoskuse teenindusest, ning nüüd loogilise struktuuri ja tehnilise täpsuse frontend-arendusest.",
+"about.bio.p2": "See mitmekülgsus pole minu jaoks hajutatus, vaid tööriistakast: kompositsiooni- ja värvitaju floristikast ja maalikunstist, kliendisuhtluse ja loomingulisus teenindusest, ning nüüd loogilise struktuuri ja tehnilise täpsuse frontend-arendusest.",
 
 "about.bio.p3": "Praegu laiendan seda oskustepagasit süsteemselt — React, Python ja andmeteadus — eesmärgiga töötada frontend-arendajana või disaineri-arendaja rollis, kus loov ja tehniline pool saavad kokku.",
 
@@ -164,7 +164,7 @@
 "about.values.curiosity.title": "Uudishimu",
 "about.values.curiosity.desc": "Iga uus oskus on avanud ukse järgmisele. Ma õpin jätkuvalt, isegi kui esimene lahendus juba töötab.",
 
-"about.values.craft.title": "Käsitöö",
+"about.values.craft.title": "Loometöö",
 "about.values.craft.desc": "Detailid loevad — nii koodis, disainis kui lilleseades. Hea töö näitab, et selle autor hoolib."
  
   
