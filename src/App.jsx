@@ -10,6 +10,7 @@ import About from "./pages/About";
 function App() {
   return (
     <BrowserRouter>
+      <Analytics />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
