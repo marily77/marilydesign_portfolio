@@ -195,7 +195,7 @@
   "live": "",
   "featured": false,
   "category": "dataviz",
-  "images": [],
+  "images": ["seab1.png","seab3.png","seab4.png","seab5.png","seab6.png"],
   "components_et": [
     "Andmestiku ülevaade ja algne puhastuskontroll",
     "9 hüpoteesi testimine sobivate graafikutüüpidega (bar, box, scatter, reg, hist, kde, count)",
