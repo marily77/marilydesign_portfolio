@@ -93,6 +93,15 @@
     "label": "valitud tööd",
     "all": "kõik projektid"
   },
+  
+  
+  "footer": {
+    "rights": "Kõik õigused kaitstud",
+    "madeIn": "Tehtud Eestis"
+  },
+  
+
+
 "about.label": "— minust",
 
 "about.heading.line1": "Kunstist",

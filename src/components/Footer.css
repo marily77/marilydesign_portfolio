@@ -1,0 +1,46 @@
+/* Footer.css */
+.footer {
+  border-top: 1px solid rgba(232, 255, 107, 0.1);
+  padding: 24px 32px;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-copyright {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.8rem;
+  color: rgba(200, 196, 188, 0.5);
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.8rem;
+  color: rgba(200, 196, 188, 0.6);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: var(--accent, #e8ff6b);
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}

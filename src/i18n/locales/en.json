@@ -92,6 +92,14 @@
     "all": "all projects"
   },
 
+  "footer": {
+    "rights": "All rights reserved",
+    "madeIn": "Made in Estonia"
+  },
+
+
+
+
 "about.label": "— about me",
 
 "about.heading.line1": "From art",

@@ -6,12 +6,15 @@ import Projects from './pages/Projects'
 import DataViz from './pages/DataViz'
 import Contact from './pages/Contact'
 import About from "./pages/About";
+import Footer from './components/Footer'
 
 function App() {
   return (
     <BrowserRouter>
       <Analytics />
       <Navbar />
+    
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
@@ -20,7 +23,13 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         
       </Routes>
+      
+      <Footer />
+
     </BrowserRouter>
+    
+
+    
   )
 }
 
