@@ -135,17 +135,83 @@
     "process_en": "A selection of design projects made over the years using different tools. Includes website designs, graphic design identities (CVI), product stylisation, and Figma splash-screen prototypes. The goal is to show the range of design skills prior to moving into frontend development — the same principles (composition, typography, color systems) now carried through into code."
   },
   {
-    "id": 1,
-    "title": "Andmeanalüüs Dashboard",
-    "description_et": "Interaktiivne dashboard Pythoni andmete visualiseerimiseks. Filtrid, graafikud ja eksport.",
-    "description_en": "Interactive dashboard for Python data visualization. Filters, charts and export.",
-    "tech": ["Python", "Pandas", "Plotly", "React"],
-    "github": "https://github.com/marily77",
-    "live": "",
-    "featured": true,
-    "category": "dataviz",
-    "images": [],
-    "process_et": "Protsessi kirjeldus tuleb.",
-    "process_en": "Process description coming soon."
-  }
+  "id": 6,
+  "title": "Böns — Bakery Ordering App",
+  "description_et": "Kuressaares asuva pagariäri Böns tellimuste rakenduse UI/UX prototüüp — grupitööna kaardistatud kasutajauuring ja individuaalselt loodud Figma prototüüp reaalse kliendi briifi põhjal.",
+  "description_en": "UI/UX prototype for a Kuressaare bakery's ordering app — group-based user research and an individually built Figma prototype based on a real client brief.",
+  "tech": ["Figma", "FigJam"],
+  "github": "",
+  "live": "https://www.figma.com/proto/6KQcopD5I5YxltBILEUEFV/B%C3%96NS?kind=proto&node-id=765-250&page-id=0%3A1&scaling=scale-down&starting-point-node-id=765%3A250&t=m1m1P5sTCTxmqRom-1&type=design",
+  "featured": true,
+  "category": "uiux",
+  "images": ["bonsplash.mp4"],
+  "components_et": [
+    "Kliendibriif — grupitööna vastu võetud, igaüks koostas oma briifi kokkuvõtte",
+    "Kasutajapersonad — igaüks lõi FigJamis vähemalt 3 personat, grupp kaardistas ühiselt tegevusteekonna",
+    "Wireframe ja disainisüsteem — individuaalne Figma wireframe, kliendi logo/CVI/värvikaart, oma tüpograafiavalik, Böns'i originaalfotod",
+    "Splash screen — 3 animeeritud varianti, testitud minivideotena",
+    "Checkout-voog — eraldi tarneloogika küpsistele (post) ja kringlitele (ainult kohapeale järeletulek)",
+    "Kasutatavuse test — mitteametlik test tuttavatega, ülesanne kombineeritud tellimusega (küpsised postiga + kringel kohapeale)"
+  ],
+  "components_en": [
+    "Client brief — received as a group, each member wrote their own brief summary",
+    "User personas — each created 3+ personas in FigJam, group mapped the user journey together",
+    "Wireframe & design system — individual Figma wireframe, client's logo/CVI/color palette, own typography choice, Böns's original product photos",
+    "Splash screen — 3 animated variants, tested as short video clips",
+    "Checkout flow — separate delivery logic for cookies (post) vs. kringel (pickup only)",
+    "Usability test — informal test with friends, task involving a combined order (cookies by post + kringel for pickup)"
+  ],
+  "process_et": [
+    "1. Briif — kogu meeskond kohtus kliendiga, igaüks küsis vastavalt oma huvile, koostas isikliku kokkuvõtte.",
+    "2. Uuring — individuaalsed kasutajapersonad FigJamis, grupp kaardistas ühiselt tegevusteekonna ja määras sihtgrupi: Böns'i tooteid juba tundvad kordustellijad.",
+    "3. Wireframe ja disain — individuaalne Figma wireframe, kliendi CVI/logo/värvid, oma tüpograafiavalik.",
+    "4. Prototüüp — kõrge täpsusega interaktiivne Figma prototüüp, sh 3 animeeritud splash screen varianti.",
+    "5. Testimine — mitteametlik test tuttavatega: tellimus kahe erineva tarneviisiga (küpsised postiga, kringel kohapeale), leiti, et kombineeritud checkout vajaks selgemat visuaalset eristust.",
+    "6. Esitlus kliendile — lahendus meeldis kliendile, kuid tootmisesse ei jõudnud kõrge arenduskulu tõttu."
+  ],
+  "process_en": [
+    "1. Brief — the whole team met with the client, each asked questions relevant to their focus, and wrote an individual summary.",
+    "2. Research — individual user personas in FigJam, group-mapped user journey, target audience defined as repeat customers already familiar with Böns's products.",
+    "3. Wireframe & design — individual Figma wireframe, client's CVI/logo/colors, own typography choice.",
+    "4. Prototype — high-fidelity interactive Figma prototype, including 3 animated splash screen variants.",
+    "5. Testing — informal test with friends: an order with two different delivery methods (cookies by post, kringel for pickup), revealing that the combined checkout needed clearer visual separation.",
+    "6. Client presentation — the client liked the solution, but it didn't reach production due to high development cost."
+  ]
+},
+
+{
+  "id": 1,
+  "title": "Restorani jootrahade andmeanalüüs (Tips Dataset)",
+  "description_et": "Andmeanalüüsi projekt Seaborn tips-andmestiku põhjal: 9 hüpoteesi testimine ja 3 üldist küsimust, lahendatud pandas, seaborn ja matplotlib abil, kohandatud visuaalse brändistiiliga.",
+  "description_en": "Data analysis project using the Seaborn tips dataset: testing 9 hypotheses and answering 3 general questions using pandas, seaborn, and matplotlib, styled to match the portfolio brand.",
+  "tech": [
+    "Python",
+    "Pandas",
+    "Seaborn",
+    "Matplotlib",
+    "Jupyter/Colab"
+  ],
+  "github": "",
+  "live": "",
+  "featured": false,
+  "category": "dataviz",
+  "images": [],
+  "components_et": [
+    "Andmestiku ülevaade ja algne puhastuskontroll",
+    "9 hüpoteesi testimine sobivate graafikutüüpidega (bar, box, scatter, reg, hist, kde, count)",
+    "Korrelatsioonianalüüs (heatmap)",
+    "Erindite tuvastamine nädalapäevade lõikes",
+    "Kohandatud tume visuaalstiil vastavalt portfoolio brändile"
+  ],
+  "components_en": [
+    "Dataset overview and initial data-quality check",
+    "Testing 9 hypotheses with the most fitting chart types (bar, box, scatter, reg, hist, kde, count)",
+    "Correlation analysis (heatmap)",
+    "Outlier detection across weekdays",
+    "Custom dark visual style matching the portfolio brand"
+  ],
+  "process_et": "## Ülevaade\nHarjutusprojekt andmeanalüüsi ja visualiseerimise oskuste demonstreerimiseks Seaborn'i tips-andmestikul (244 restorani külastust).\n\n## Ülesanne\nKontrollida 9 väidet klientide käitumise kohta (nt sugu vs arve suurus, jootraha jaotus nädalapäeviti, korrelatsioon arve ja jootraha vahel) ning vastata 3 üldisemale analüütilisele küsimusele, valides iga väite jaoks kõige sobivama graafikutüübi.\n\n## Meetod\nAndmed laeti ja puhastati (pandas), seejärel visualiseeriti seaborn/matplotlib abil kasutades bar-, box-, scatter-, reg-, hist-, kde- ja count-plotte ning korrelatsiooni heatmapi. Iga väite juurde kirjutati lühike, graafikul põhinev järeldus.\n\n## Tulemus\nSelgus, et arve suurus on jootraha suuruse tugevaim ennustaja, sugu ja suitsetamisstaatus mõjutavad jootrahat vaid marginaalselt ning nädalavahetusel esineb jootraha suuruses rohkem erindeid.",
+  "process_en": "## Overview\nA practice project demonstrating data analysis and visualization skills using Seaborn's tips dataset (244 restaurant visits).\n\n## Task\nTest 9 statements about customer behavior (e.g. gender vs. bill size, tip distribution by weekday, correlation between bill and tip) and answer 3 broader analytical questions, choosing the most fitting chart type for each.\n\n## Method\nData was loaded and checked with pandas, then visualized with seaborn/matplotlib using bar, box, scatter, reg, hist, kde, and count plots plus a correlation heatmap. Each statement was paired with a short, chart-based conclusion.\n\n## Result\nBill size turned out to be the strongest predictor of tip size, while gender and smoker status had only a marginal effect, and weekend tips showed more outliers."
+}
+  
 ]
