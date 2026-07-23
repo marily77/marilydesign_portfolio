@@ -5,7 +5,7 @@
     "issuer": "Taltech",
     "year": 2025,
     "category": "dev",
-    "image": "src/assets/certificates/loppoopx-doc.jpg",
+    "image": "/certificates/loppoopx-doc.jpg",
     "verifyUrl": ""
   },
   {
@@ -14,7 +14,7 @@
     "issuer": "Taltech",
     "year": 2026,
     "category": "design",
-    "image": "src/assets/certificates/certwitout.jpg",
+    "image": "/certificates/certwitout.jpg",
     "verifyUrl": ""
   },
   {
@@ -23,7 +23,7 @@
     "issuer": "Taltech",
     "year": 2026,
     "category": "ai",
-    "image": "src/assets/certificates/probledata.jpg",
+    "image": "/certificates/probledata.jpg",
     "verifyUrl": ""
   },
   {
@@ -32,7 +32,7 @@
     "issuer": "ZTM Academy",
     "year": 2026,
     "category": "dev",
-    "image": "src/assets/certificates/completepython.jpg",
+    "image": "/certificates/completepython.jpg",
     "verifyUrl": ""
   },
   {
@@ -41,7 +41,7 @@
     "issuer": "ZTM Academy",
     "year": 2026,
     "category": "ai",
-    "image": "src/assets/certificates/llm.jpg",
+    "image": "/certificates/llm.jpg",
     "verifyUrl": ""
   },
    {
@@ -50,7 +50,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "uiux",
-    "image": "src/assets/certificates/uicomponents.jpg",
+    "image": "/certificates/uicomponents.jpg",
     "verifyUrl": ""
   },
   {
@@ -59,7 +59,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "uiux",
-    "image": "src/assets/certificates/UIComponents1.jpg",
+    "image": "/certificates/UIComponents1.jpg",
     "verifyUrl": ""
   },
   {
@@ -68,7 +68,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "uiux",
-    "image": "src/assets/certificates/UXDesignFoundations.jpg",
+    "image": "/certificates/UXDesignFoundations.jpg",
     "verifyUrl": ""
   },
   {
@@ -77,7 +77,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "uiux",
-    "image": "src/assets/certificates/UXDesignPatternswithChecklistDesign.jpg",
+    "image": "/certificates/UXDesignPatternswithChecklistDesign.jpg",
     "verifyUrl": ""
   },
   {
@@ -86,7 +86,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "uiux",
-    "image": "src/assets/certificates/UXResearch.jpg",
+    "image": "/certificates/UXResearch.jpg",
     "verifyUrl": ""
   },
     {
@@ -95,7 +95,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "uiux",
-    "image": "src/assets/certificates/UXWriting.jpg",
+    "image": "/certificates/UXWriting.jpg",
     "verifyUrl": ""
   },
     {
@@ -104,7 +104,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/3DDesignFoundations.jpg",
+    "image": "/certificates/3DDesignFoundations.jpg",
     "verifyUrl": ""
   },
     
@@ -114,7 +114,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "ai",
-    "image": "src/assets/certificates/AIinUIUXDesign.jpg",
+    "image": "/certificates/AIinUIUXDesign.jpg",
     "verifyUrl": ""
   },
     
@@ -124,7 +124,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/ColorPsychology.jpg",
+    "image": "/certificates/ColorPsychology.jpg",
     "verifyUrl": ""
   },
     
@@ -134,7 +134,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/CommonDesignPatterns.jpg",
+    "image": "/certificates/CommonDesignPatterns.jpg",
     "verifyUrl": ""
   },
     
@@ -144,7 +144,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/CSSforDesigners.jpg",
+    "image": "/certificates/CSSforDesigners.jpg",
     "verifyUrl": ""
   },
     
@@ -154,7 +154,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/DesignAccessibility.jpg",
+    "image": "/certificates/DesignAccessibility.jpg",
     "verifyUrl": ""
   },
     
@@ -164,7 +164,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/DesignComposition.jpg",
+    "image": "/certificates/DesignComposition.jpg",
     "verifyUrl": ""
   },
 
@@ -175,7 +175,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/DesignMentorshipMasterywithADPList.jpg",
+    "image": "/certificates/DesignMentorshipMasterywithADPList.jpg",
     "verifyUrl": ""
   },
     
@@ -185,7 +185,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/DesignTerminology.jpg",
+    "image": "/certificates/DesignTerminology.jpg",
     "verifyUrl": ""
   },
     
@@ -195,7 +195,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/DesignWorkshopFacilitation.jpg",
+    "image": "/certificates/DesignWorkshopFacilitation.jpg",
     "verifyUrl": ""
   },
     
@@ -205,7 +205,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/HTMLforDesigners.jpg",
+    "image": "/certificates/HTMLforDesigners.jpg",
     "verifyUrl": ""
   },
     
@@ -215,7 +215,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/MobileDesign.jpg",
+    "image": "/certificates/MobileDesign.jpg",
     "verifyUrl": ""
   },
    
@@ -225,7 +225,7 @@
     "issuer": "Udemy",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/MotionDesignCertificate.jpg",
+    "image": "/certificates/MotionDesignCertificate.jpg",
     "verifyUrl": ""
   },
       {
@@ -234,7 +234,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/ServiceDesign.jpg",
+    "image": "/certificates/ServiceDesign.jpg",
     "verifyUrl": ""
   },
     {
@@ -243,7 +243,7 @@
     "issuer": "ZTM Academy",
     "year": 2025,
     "category": "dev",
-    "image": "src/assets/certificates/the-complete-web-developer-zero-to-mastery.pdf.jpg",
+    "image": "/certificates/the-complete-web-developer-zero-to-mastery.pdf.jpg",
     "verifyUrl": ""
   },
       {
@@ -252,7 +252,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/typography.jpg",
+    "image": "/certificates/typography.jpg",
     "verifyUrl": ""
   },
       {
@@ -261,7 +261,7 @@
     "issuer": "Uxcel",
     "year": 2023,
     "category": "design",
-    "image": "src/assets/certificates/Wireframing.jpg",
+    "image": "/certificates/Wireframing.jpg",
     "verifyUrl": ""
   },
       {
@@ -270,7 +270,7 @@
     "issuer": "BCS Koolitus",
     "year": 2025,
     "category": "dev",
-    "image": "src/assets/certificates/naisedvebtun.jpg",
+    "image": "/certificates/naisedvebtun.jpg",
     "verifyUrl": ""
   },
         {
@@ -279,7 +279,7 @@
     "issuer": "Kuressaare Ametikool",
     "year": 2024,
     "category": "design",
-    "image": "src/assets/certificates/lõpukasilmaisik.jpg",
+    "image": "/certificates/lõpukasilmaisik.jpg",
     "verifyUrl": ""
   },
    {
@@ -288,7 +288,7 @@
     "issuer": "ZTM Academy",
     "year": 2026,
     "category": "ai",
-    "image": "src/assets/certificates/mlanddata.jpg",
+    "image": "/certificates/mlanddata.jpg",
     "verifyUrl": ""
   }
 
