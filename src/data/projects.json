@@ -179,7 +179,7 @@
   ]
 },
 {
-  "id": 6,
+  "id": 7,
   "title": "Inspect the Inbox — Phishing Spotting Learning Activity",
   "description_et": "Interaktiivne õppeharjutus, mis õpetab ära tundma andmepüügi (phishing) e-kirjade tunnuseid päris e-posti kliendi väljanägemisega mock-liidese kaudu, ehitatud puhta HTML/CSS/JS-iga ilma raamistikuta.",
   "description_en": "An interactive learning activity that trains users to recognize phishing red flags through a realistic mock email client interface, built with vanilla HTML, CSS, and JavaScript with no framework.",
