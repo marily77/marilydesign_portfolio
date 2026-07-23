@@ -178,6 +178,39 @@
     "6. Client presentation — the client liked the solution, but it didn't reach production due to high development cost."
   ]
 },
+{
+  "id": 6,
+  "title": "Inspect the Inbox — Phishing Spotting Learning Activity",
+  "description_et": "Interaktiivne õppeharjutus, mis õpetab ära tundma andmepüügi (phishing) e-kirjade tunnuseid päris e-posti kliendi väljanägemisega mock-liidese kaudu, ehitatud puhta HTML/CSS/JS-iga ilma raamistikuta.",
+  "description_en": "An interactive learning activity that trains users to recognize phishing red flags through a realistic mock email client interface, built with vanilla HTML, CSS, and JavaScript with no framework.",
+  "tech": [
+    "HTML5",
+    "CSS3",
+    "JavaScript (Vanilla)",
+    "Google Fonts"
+  ],
+  "github": "https://github.com/marily77/phishing-spotter",
+  "live": "https://marily77.github.io/phishing-spotter/",
+  "featured": false,
+  "category": "interactive",
+  "images": ["pshpilt1.png","pshpilt2.png"],
+  "components_et": [
+    "Kuus klõpsatavat 'hotspot' ala päris e-kirja stiilis liideses (saatja, tervitus, kiireloomulisuse keel, CTA-link, manus, allkiri)",
+    "Dev tools'i inspektorit meenutav paneel, mis avaneb klõpsu peale ja selgitab, miks konkreetne detail on ohumärk",
+    "Elav staatusriba, mis paljastab lingi hover'damisel selle päris sihtkoha, nagu päris brauseris",
+    "Skoori jälgimine (0/6) koos lähtestamisnupuga",
+    "Täielikult klaviatuuriga kasutatav ja responsiivne kitsastel ekraanidel"
+  ],
+  "components_en": [
+    "Six clickable hotspots inside a realistic mock email client (sender, greeting, urgency language, CTA link, attachment, sign-off)",
+    "Dev-tools-style Inspector panel that opens on click and explains why each detail is a red flag",
+    "Live status bar that reveals a link's real destination on hover, mirroring real browser behavior",
+    "Score tracker (0/6) with a reset button to retry",
+    "Fully keyboard-accessible and responsive on narrow viewports"
+  ],
+  "process_et": "## Ülevaade\nInteraktiivne õppeharjutus küberturvalisuse teemal, ehitatud vastuseks küsimusele, milline õppeaktiivsus tooks kasu tehnilise õppesisu meeskonnale — üks fail, ilma raamistikuta, kohe GitHub Pages'is testitav.\n\n## Ülesanne\nLuua harjutus, mis õpetab ära tundma phishing e-kirjade tunnuseid mustri, mitte pähe õppimise kaudu — õppija peab need ise leidma sisu seest, mis näeb välja ja tundub nagu päris e-kiri.\n\n## Meetod\nStruktuur ehitati HTML-iga (e-kirja markup), CSS-iga (usutav e-posti kliendi väljanägemine) ja JavaScript'iga (klõpsusündmused, state'i jälgimine, dünaamiline tagasiside). Iga ohumärk on eraldi 'hotspot', mille klõpsamine avab paremal dev tools'i inspektorit meenutava paneeli koos selgitusega — valik, mis ühendab 'pettuse äratundmise' ja 'elemendi inspekteerimise' metafoorid, luues loomuliku silla üldisest turvateadlikkusest tehnilisemate oskuste suunas.\n\n## Tulemus\nValmis interaktiivne, ligipääsetav ja mobiilisõbralik õppeharjutus, mis on avalikult testitav ja mille koodibaas on lihtsalt laiendatav (nt mitme e-kirja stsenaariumiga või tulemuste kokkuvõtte ekraaniga).",
+  "process_en": "## Overview\nAn interactive cybersecurity learning activity, built in response to a prompt about what kind of activity would benefit a technical learning content team — a single file, no framework, live and testable on GitHub Pages.\n\n## Task\nBuild an exercise that teaches phishing red flags through pattern recognition rather than memorization — the learner has to find them inside content that looks and reads like a real email.\n\n## Method\nThe structure was built with HTML (email markup), CSS (a believable email client look), and JavaScript (click events, state tracking, dynamic feedback). Each red flag is a separate hotspot; clicking it opens a dev-tools-style Inspector panel with an explanation — a deliberate choice that merges the 'spot the scam' and 'inspect the element' metaphors, creating a natural bridge from general security awareness toward more technical skills.\n\n## Result\nA finished interactive, accessible, and mobile-friendly learning activity that's publicly testable, with a codebase that's straightforward to extend — for example with multiple email scenarios or a results summary screen."
+},
 
 {
   "id": 1,
